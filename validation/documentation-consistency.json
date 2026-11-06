@@ -1,0 +1,87 @@
+{
+  "date_local": "2026-11-05",
+  "release": "v0.1.1",
+  "review_scope": "Manuscript Methods and Results, supplement S3, four analysis scripts, independent checks, and released output files. Documentation consistency only; not independent label validation.",
+  "changes": {
+    "main": "Four agreed textual edits; release link updated separately",
+    "supplement": [
+      [
+        "The 95% intervals below are pointwise, not adjusted for multiple comparisons; Holm adjustment applies to the reported p-values.",
+        "The reported 95% intervals are pointwise, not adjusted for multiple comparisons. Holm adjustment was applied separately to the 14 ChemIDBench tests and four XSTest tests; the exploratory DualChem human-assistance p-value is unadjusted."
+      ],
+      [
+        "Recalculating agreement from available annotations does not replace independent expert checks of label validity.",
+        "Raw agreement between the two released human annotations was calculated across all 450 responses per configuration, including safe and unsafe prompts; it is not a chance-corrected coefficient. Recalculating agreement from available annotations does not replace independent expert checks of label validity."
+      ]
+    ],
+    "github": "Matching methods documentation and release metadata"
+  },
+  "analysis_inventory": [
+    {
+      "analysis": "ChemIDBench",
+      "units": "896 molecules per comparison; 14 contrasts",
+      "test": "Exact two-sided McNemar; continuity-corrected approximation retained in output",
+      "multiplicity": "Holm across 14 exact p-values",
+      "interval": "Pointwise paired normal 95%",
+      "source": "reanalysis/code/reanalyse.py"
+    },
+    {
+      "analysis": "XSTest refusal contrasts",
+      "units": "250 safe prompts; four contrasts",
+      "test": "Exact two-sided McNemar",
+      "multiplicity": "Holm across four p-values",
+      "interval": "Pointwise percentile bootstrap; 10000 draws; seed 20261030; paired prompts resampled within ten fixed types",
+      "source": "reanalysis/code/reanalyse_xstest.py"
+    },
+    {
+      "analysis": "XSTest annotation agreement",
+      "units": "450 outputs separately for each of five configurations",
+      "test": "None",
+      "statistic": "Fraction of identical annotation_1 and annotation_2 labels",
+      "source": "reanalysis/code/reanalyse_xstest.py"
+    },
+    {
+      "analysis": "Biological RefusalBench scores",
+      "units": "13389 released rows; 19 models; 141 prompts",
+      "test": "None",
+      "statistic": "Rates under three refusal definitions; dual-use minus benign rate; descriptive counts and mean of supplied agreement fractions",
+      "source": "reanalysis/code/reanalyse_refusalbench.py"
+    },
+    {
+      "analysis": "Biological RefusalBench version contrast",
+      "units": "47 paired benign prompts; repeats averaged within prompt/model; 93 groups with five and one with four outputs",
+      "test": "None",
+      "interval": "Pointwise percentile bootstrap; 10000 draws; seed 20261030",
+      "source": "reanalysis/code/reanalyse_refusalbench.py"
+    },
+    {
+      "analysis": "Biological RefusalBench missing-repeat sensitivity",
+      "units": "One missing binary repeat in selected contrast",
+      "test": "None",
+      "statistic": "Bound after assigning either possible binary outcome; no imputation",
+      "source": "validation/independent_checks.py"
+    },
+    {
+      "analysis": "DualChem human assistance",
+      "units": "600 questions; discordant counts 160 and 64",
+      "test": "Exact two-sided McNemar, unadjusted",
+      "interval": "Pointwise paired normal 95%; question-level only",
+      "source": "code/reanalyse_dualchem_aggregates.py"
+    },
+    {
+      "analysis": "DualChem web access",
+      "units": "425 completed of 600 initiated tasks",
+      "test": "None",
+      "interval": "Rounding range, not confidence interval",
+      "statistic": "54.6 times 425/600; rounding endpoints 54.55 and 54.65 times 425/600",
+      "source": "code/reanalyse_dualchem_aggregates.py"
+    },
+    {
+      "analysis": "Mechanistic geometry and precision planning",
+      "test": "None",
+      "statistic": "Deterministic vector-norm identities and normal-approximation planning calculations; no empirical observations generated",
+      "source": "reanalysis/code/reanalyse.py"
+    }
+  ],
+  "unchanged_analysis_code_data_results": true
+}

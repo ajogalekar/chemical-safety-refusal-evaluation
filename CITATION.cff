@@ -7,9 +7,9 @@ authors:
     given-names: Ashutosh S.
     affiliation: "Szilard Scientific LLC, Palo Alto, CA"
     orcid: "https://orcid.org/0009-0002-5113-2268"
-version: 0.1.0
-abstract: "Code, released-label analysis inputs, and provenance for a methodological review of chemical model safety and refusal. Initial public release; manuscript DOI pending."
+version: 0.1.1
+abstract: "Code, released-label analysis inputs, and provenance for a methodological review of chemical model safety and refusal. Documentation clarification; analysis results unchanged; manuscript DOI pending."
 license: MIT
 repository-code: "https://github.com/ajogalekar/chemical-safety-refusal-evaluation"
-url: "https://github.com/ajogalekar/chemical-safety-refusal-evaluation/releases/tag/v0.1.0"
+url: "https://github.com/ajogalekar/chemical-safety-refusal-evaluation/releases/tag/v0.1.1"
 date-released: 2026-11-05

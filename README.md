@@ -4,7 +4,7 @@ Companion code and data for the methodological review by **Ashutosh S. Jogalekar
 
 Literature and analysis cutoff: **31 October 2026**. Focused coverage checks and release preparation: **5 November 2026**. This repository contains the companion analyses for a manuscript prepared for ChemRxiv submission. The manuscript has not yet been submitted or peer reviewed. The proposed study has not been run.
 
-Repository: https://github.com/ajogalekar/chemical-safety-refusal-evaluation . The initial reproducible version is tagged `v0.1.0`.
+Repository: https://github.com/ajogalekar/chemical-safety-refusal-evaluation . The initial calculations are tagged `v0.1.0`; `v0.1.1` clarifies their documentation without changing data, code, or numerical results.
 
 ## Reproduce the calculations
 
@@ -34,15 +34,15 @@ Cached papers, full blog text, search-result prose, private editorial rankings, 
 
 | Study | Reproduced or recalculated | Alternative analysis | Unresolved |
 |---|---|---|---|
-| ChemIDBench | Published paired discordant counts | Exact McNemar tests, Holm adjustment, paired normal intervals | Molecule identities, family dependence, scoring validity |
-| XSTest | Refusal rates from released human labels | Paired same-model contrasts; bootstrap within ten fixed safe-prompt types; Holm adjustment | Related wording, new prompt types, decoding variability, answer quality |
+| ChemIDBench | Published paired discordant counts | Exact McNemar tests, Holm adjustment across 14 tests, paired normal intervals | Molecule identities, family dependence, scoring validity |
+| XSTest | Refusal rates from released human labels | Paired same-model contrasts; bootstrap within ten fixed safe-prompt types; Holm adjustment across four tests; raw annotation agreement on all 450 responses per configuration | Related wording, new prompt types, decoding variability, answer quality |
 | Biological RefusalBench | Frozen 19-model table scores under table-matching labels | Scoring-definition sensitivity; paired prompt bootstrap after averaging available repeats | Missing judge matrices, curated prompt selection, causes of snapshot differences |
-| DualChem | Published paired arithmetic and rounded aggregate rates | Completed-run versus all-initiated-task denominator sensitivity | Participant dependence and assignment; paired tool/no-tool outcomes |
+| DualChem | Published paired arithmetic and rounded aggregate rates | Completed-run versus all-initiated-task denominator sensitivity; unadjusted exploratory question-level test for human assistance | Participant dependence and assignment; paired tool/no-tool outcomes |
 
 RefusalBench's selected comparison contains 93 prompt/model groups with five outputs and one with four. Available repeats are averaged; no missing result is imputed. The correction changes explanatory text, not estimates. The maximum point-estimate shift from assigning either binary outcome to that one missing repeat is 0.43 percentage points. The DualChem completed-run increase of 2.3 points has no justified significance test from the available aggregates.
 
 ## Rights and citation
 
-Original analysis code and PatAgent code: MIT, see `LICENSE`. Manuscript, figures, and original review documentation: CC BY 4.0, see `LICENSES/MANUSCRIPT-CC-BY-4.0.md`. Third-party data retain their own licenses; see `THIRD_PARTY_NOTICES.md` and `DATA_SOURCES.json`. Use `CITATION.cff` for this package. Cite the `v0.1.0` tag for the initial release; a manuscript DOI will be added when assigned. AI use in analysis and writing is described in `AI_USE.md` and the manuscript.
+Original analysis code and PatAgent code: MIT, see `LICENSE`. Manuscript, figures, and original review documentation: CC BY 4.0, see `LICENSES/MANUSCRIPT-CC-BY-4.0.md`. Third-party data retain their own licenses; see `THIRD_PARTY_NOTICES.md` and `DATA_SOURCES.json`. Use `CITATION.cff` for this package. Cite the `v0.1.1` tag for the current documentation release; a manuscript DOI will be added when assigned. AI use in analysis and writing is described in `AI_USE.md` and the manuscript.
 
 The code and data are published at https://github.com/ajogalekar/chemical-safety-refusal-evaluation. The tagged version and its checksummed ZIP preserve the release used by the manuscript. No manuscript DOI has been assigned. The same analysis archive can accompany the ChemRxiv submission.

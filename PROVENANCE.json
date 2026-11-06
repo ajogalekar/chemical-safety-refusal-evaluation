@@ -1,10 +1,10 @@
 {
   "title": "Measuring chemical safety and refusal in language models",
-  "release_version": "0.1.0",
+  "release_version": "0.1.1",
   "prepared_date_local": "2026-11-05",
   "literature_analysis_cutoff": "2026-10-31",
   "focused_coverage_checks": "2026-11-05",
-  "status": "Initial public code/data release; manuscript not submitted to ChemRxiv",
+  "status": "Public documentation update; manuscript not submitted to ChemRxiv",
   "author": "Ashutosh S. Jogalekar",
   "affiliation": "Szilard Scientific LLC, Palo Alto, CA",
   "orcid": "https://orcid.org/0009-0002-5113-2268",
@@ -15,7 +15,7 @@
     "literature/retrieval*.json",
     "patagent/SOURCE_PROVENANCE.json"
   ],
-  "manuscript_authority": "Author-edited Google Doc exported 5 November 2026; scientific prose preserved. Only correspondence, ORCID, declaration and publication-facing package text changed; figures regenerated at higher resolution without content changes.",
+  "manuscript_authority": "Author-edited Google Doc. Methods expanded and clarified, duplicated result-section procedure descriptions removed, and manuscript title metadata cleaned on 5 November 2026. Other scientific wording and numerical results preserved.",
   "observed_data": "Released labels and published sufficient counts; no new benchmark generations or experimental runs",
   "original_inputs_preserved": "Original full local XSTest CSVs retained in the private working archive; public release projects analysis columns and prompt hashes, with original hashes and pinned URLs. RefusalBench CSV retained unchanged.",
   "reanalysis_notes": [
@@ -45,5 +45,6 @@
   },
   "publication": "Public code/data release; no manuscript DOI assigned.",
   "repository": "https://github.com/ajogalekar/chemical-safety-refusal-evaluation",
-  "release_tag": "v0.1.0"
+  "release_tag": "v0.1.1",
+  "changes_since_v0_1_0": "Documentation only: explicit multiple-testing families and unadjusted DualChem test, XSTest agreement denominator, and release metadata. Analysis inputs, code, figures, and numerical outputs are byte-identical to v0.1.0."
 }

@@ -69,7 +69,7 @@ In the unified study's vector decomposition, the lengths of the common and resid
 
 ## S3. Reanalysis methods and results
 
-The 95% intervals below are pointwise, not adjusted for multiple comparisons; Holm adjustment applies to the reported p-values.
+The reported 95% intervals are pointwise, not adjusted for multiple comparisons. Holm adjustment was applied separately to the 14 ChemIDBench tests and four XSTest tests; the exploratory DualChem human-assistance p-value is unadjusted.
 
 ### S3.1. ChemIDBench: published sufficient counts
 
@@ -88,7 +88,7 @@ The input consists of five public v2 completion files from repository tree `d7bb
 | Mistral guard minus no guard | Full refusal | +8.8 | +5.6 to +12.4 |
 | Mistral guard minus no guard | Full or partial refusal | +17.2 | +13.2 to +21.6 |
 
-The intervals apply to the released labels, fixed model snapshots, and ten prompt types. They do not include variation from future models or repeated stochastic generations. Shared wording may make prompts less independent than the resampling assumes. Recalculating agreement from available annotations does not replace independent expert checks of label validity.
+The intervals apply to the released labels, fixed model snapshots, and ten prompt types. They do not include variation from future models or repeated stochastic generations. Shared wording may make prompts less independent than the resampling assumes. Raw agreement between the two released human annotations was calculated across all 450 responses per configuration, including safe and unsafe prompts; it is not a chance-corrected coefficient. Recalculating agreement from available annotations does not replace independent expert checks of label validity.
 
 ### S3.3. Biological RefusalBench: definition sensitivity
 
