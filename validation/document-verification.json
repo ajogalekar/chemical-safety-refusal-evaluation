@@ -1,0 +1,43 @@
+{
+  "main_pages": 21,
+  "supplement_pages": 8,
+  "all_pages_visually_inspected": true,
+  "visual_findings": "No clipping, overlap, missing figures or caption breaks identified. Full-page schematic kept with its caption.",
+  "main_text_equals_current_google_doc_ignoring_whitespace": true,
+  "scientific_main_text_changes": 0,
+  "scientific_supplement_text_changes": 0,
+  "submission_only_replacements": "Declarations/front matter and obsolete private-package/drafting references; explicit replacement logs retained.",
+  "references": 52,
+  "tables": 3,
+  "figures": [
+    {
+      "figure": "figure1",
+      "pixels": [
+        2100,
+        1659
+      ],
+      "width_inches": 5.833333333333333,
+      "effective_dpi": 360.0
+    },
+    {
+      "figure": "figure2",
+      "pixels": [
+        2100,
+        2034
+      ],
+      "width_inches": 5.833333333333333,
+      "effective_dpi": 360.0
+    },
+    {
+      "figure": "proposed-study-schematic",
+      "pixels": [
+        3167,
+        4209
+      ],
+      "width_inches": 6.110042650918635,
+      "effective_dpi": 518.3269873777143
+    }
+  ],
+  "ai_disclosure_in_main": true,
+  "funding_and_coi_author_confirmed": true
+}

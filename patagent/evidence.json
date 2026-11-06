@@ -1,0 +1,233 @@
+{
+  "schema_version": "1.0",
+  "agent": "pat-agent",
+  "method": "PatAgent uses the complete synced blog for retrieval and this curated catalog for stable audit-gate citations.",
+  "sources": [
+    {
+      "id": "blog-index-2026",
+      "title": "Practical Cheminformatics Index",
+      "date": "2026-04-12",
+      "source_type": "blog-index",
+      "author_relation": "pat-authored",
+      "url": "https://patwalters.github.io/Practical-Cheminformatics-Index/",
+      "principles": [
+        "Use the unified index to discover archived Blogger and current GitHub Pages posts.",
+        "Treat the blog as an evolving corpus and refresh it instead of freezing a one-time summary."
+      ]
+    },
+    {
+      "id": "better-benchmarks-2023",
+      "title": "We Need Better Benchmarks for Machine Learning in Drug Discovery",
+      "date": "2023-08-03",
+      "source_type": "blog-post",
+      "author_relation": "pat-authored",
+      "url": "https://practicalcheminformatics.blogspot.com/2023/08/we-need-better-benchmarks-for-machine.html",
+      "principles": [
+        "Validate structures, representation consistency, stereochemistry, duplicates, labels, and assay artifacts.",
+        "Prefer relevant, clearly defined endpoints measured consistently under realistic ranges and cutoffs.",
+        "Preserve provenance, experimental error, reference standards, and predefined train/validation/test splits.",
+        "Use benchmarks to expose where methods fail, and maintain benchmark versions over time."
+      ]
+    },
+    {
+      "id": "getting-real-2023",
+      "title": "Getting Real with Molecular Property Prediction",
+      "date": "2023-06-12",
+      "source_type": "blog-post",
+      "author_relation": "pat-authored",
+      "url": "https://practicalcheminformatics.blogspot.com/2023/06/getting-real-with-molecular-property.html",
+      "principles": [
+        "Explore distributions before modeling and compare against a simple constant or empirical baseline.",
+        "Estimate the ceiling imposed by experimental error and report bootstrapped confidence intervals.",
+        "Assess whether training and test chemical spaces differ, including adversarial validation.",
+        "Use multiple realistic split strategies and prefer an understandable simple method when performance is practically equivalent."
+      ]
+    },
+    {
+      "id": "multiple-comparisons-2019",
+      "title": "Multiple Comparisons, Non-Parametric Statistics, and Post-Hoc Tests",
+      "date": "2019-03-31",
+      "source_type": "blog-post",
+      "author_relation": "pat-authored",
+      "url": "https://practicalcheminformatics.blogspot.com/2019/03/multiple-comparisons-non-parametric.html",
+      "principles": [
+        "Inspect distributions and dependence before choosing a statistical test.",
+        "Do not apply an independent-sample t-test to repeated measurements of the same molecular cases.",
+        "Correct for multiple comparisons; Holm adjustment is often preferable to an increasingly conservative Bonferroni correction.",
+        "Plot complete distributions rather than relying on means and error bars alone."
+      ]
+    },
+    {
+      "id": "model-ceiling-2019",
+      "title": "How Good Could (Should) My Models Be?",
+      "date": "2019-07-28",
+      "source_type": "blog-post",
+      "author_relation": "pat-authored",
+      "url": "https://practicalcheminformatics.blogspot.com/2019/07/how-good-could-should-my-models-be.html",
+      "principles": [
+        "Simulate measurement error to estimate an attainable correlation distribution.",
+        "Investigate results that exceed a plausible ceiling given experimental uncertainty."
+      ]
+    },
+    {
+      "id": "splitting-2024",
+      "title": "Some Thoughts on Splitting Chemical Datasets",
+      "date": "2024-11-16",
+      "source_type": "blog-post",
+      "author_relation": "pat-authored",
+      "url": "https://practicalcheminformatics.blogspot.com/2024/11/some-thoughts-on-splitting-chemical.html",
+      "principles": [
+        "Random splits can be optimistic when test molecules resemble training examples.",
+        "Scaffold splits can also be optimistic because different scaffolds may remain highly similar.",
+        "Compare split difficulty and train-test similarity; Butina or temporal-style splits can be more informative, with caveats.",
+        "Treat splitting as an experimental-design decision, not a default library argument."
+      ]
+    },
+    {
+      "id": "why-no-extrapolation-2025",
+      "title": "Why Don't Machine Learning Models Extrapolate?",
+      "date": "2025-04-26",
+      "source_type": "blog-post",
+      "author_relation": "pat-authored",
+      "url": "https://patwalters.github.io/Why-Dont-Machine-Learning-Models-Extrapolate/",
+      "principles": [
+        "Compare prediction ranges with the response and chemical ranges represented in training data.",
+        "Set realistic expectations for unsupported regions and include simple linear or empirical controls."
+      ]
+    },
+    {
+      "id": "tautomers-2025",
+      "title": "The Trouble With Tautomers",
+      "date": "2025-05-06",
+      "source_type": "blog-post",
+      "author_relation": "pat-authored",
+      "url": "https://patwalters.github.io/The-Trouble-With-Tautomers/",
+      "principles": [
+        "Algorithmic canonical tautomers need not represent experimentally populated species.",
+        "Use canonical tautomeric identifiers to detect duplicates, but do not automatically replace model inputs without evidence.",
+        "Measure the actual sensitivity of predictions to tautomer representation relative to experimental and resampling variability."
+      ]
+    },
+    {
+      "id": "published-isnt-right-2025",
+      "title": "Just Because You Published It Doesn't Mean It's Right",
+      "date": "2025-09-20",
+      "source_type": "blog-post",
+      "author_relation": "pat-authored",
+      "url": "https://patwalters.github.io/Just-Because-You-Published-It-Doesnt-Mean-Its-Right/",
+      "principles": [
+        "Evaluate models on realistic dynamic ranges and test sets that are not near-neighbor copies of training data.",
+        "Compare against a null predictor and separate impressive-looking correlation from practical utility.",
+        "Published benchmark status is not a substitute for dataset quality review and statistical method comparison."
+      ]
+    },
+    {
+      "id": "cofolding-2025",
+      "title": "We Still Haven't Found What We're Looking For - The Continuing Evolution of Protein-Ligand Co-Folding Methods",
+      "date": "2025-11-03",
+      "source_type": "blog-post",
+      "author_relation": "pat-authored",
+      "url": "https://patwalters.github.io/Cofolding-Evolution/",
+      "principles": [
+        "Stratify pose performance by protein, pocket, and ligand similarity to training data.",
+        "Separate top-ranked performance from an oracle best-of-N pose result.",
+        "Include allosteric systems and verify pocket placement because orthosteric evidence can dominate predictions.",
+        "Avoid strong affinity or generalization claims without prospective experimental evidence."
+      ]
+    },
+    {
+      "id": "generative-raise-bar-2023",
+      "title": "Generative Molecular Design - We Need to Raise the Bar",
+      "date": "2023-02-01",
+      "source_type": "blog-post",
+      "author_relation": "pat-authored",
+      "url": "https://practicalcheminformatics.blogspot.com/2023/02/generative-molecular-design-we-need-to.html",
+      "principles": [
+        "Report chemical validity, uniqueness, and the most similar training examples for proposed hits.",
+        "Distinguish model contribution from human selection and post-processing.",
+        "Assess synthesis, nuisance chemistry, multi-objective tradeoffs, and experimental validation.",
+        "Release enough code, data, and procedure for others to reproduce and extend the work."
+      ]
+    },
+    {
+      "id": "classification-tutorial-2022",
+      "title": "Comparing Classification Models - A Practical Tutorial",
+      "date": "2022-05-01",
+      "source_type": "peer-reviewed-paper",
+      "author_relation": "pat-authored",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34549368/",
+      "doi": "10.1007/s10822-021-00417-2",
+      "principles": [
+        "Do not conclude that one model wins from cross-validation means alone.",
+        "Use statistically rigorous comparison of paired model results and report their distributions."
+      ]
+    },
+    {
+      "id": "evaluation-guidelines-2022",
+      "title": "Evaluation Guidelines for Machine Learning Tools in the Chemical Sciences",
+      "date": "2022-05-24",
+      "source_type": "peer-reviewed-paper",
+      "author_relation": "coauthored",
+      "url": "https://www.nature.com/articles/s41570-022-00391-9",
+      "doi": "10.1038/s41570-022-00391-9",
+      "principles": [
+        "Define the task and intended use before choosing data, splits, metrics, and baselines.",
+        "Separate training, validation, and test roles and assess domain, uncertainty, robustness, and reproducibility.",
+        "Match evaluation design to the chemical-science question instead of relying on generic ML scores."
+      ]
+    },
+    {
+      "id": "reproducibility-2013",
+      "title": "Modeling, Informatics, and the Quest for Reproducibility",
+      "date": "2013-06-21",
+      "source_type": "peer-reviewed-viewpoint",
+      "author_relation": "pat-authored",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23758509/",
+      "doi": "10.1021/ci400197w",
+      "principles": [
+        "Make software, structures, data, and supporting information accessible enough to reproduce computational work.",
+        "Record procedures and inputs with the rigor expected of experimental methods."
+      ]
+    },
+    {
+      "id": "code-sharing-2020",
+      "title": "Code Sharing in the Open Science Era",
+      "date": "2020-09-16",
+      "source_type": "peer-reviewed-viewpoint",
+      "author_relation": "pat-authored",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32937075/",
+      "doi": "10.1021/acs.jcim.0c01000",
+      "principles": [
+        "Computational papers should release code or an adequate reproducible implementation.",
+        "Capture versions, inputs, and executable details rather than presenting only final tables and plots."
+      ]
+    },
+    {
+      "id": "method-comparison-2025",
+      "title": "Practically Significant Method Comparison Protocols for Machine Learning in Small Molecule Drug Discovery",
+      "date": "2025-08-25",
+      "source_type": "peer-reviewed-paper",
+      "author_relation": "coauthored",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40932128/",
+      "doi": "10.1021/acs.jcim.5c01609",
+      "principles": [
+        "Use domain-appropriate metrics and statistically rigorous paired comparison protocols.",
+        "Report practical effect size and uncertainty, not only statistical significance.",
+        "Predefine methods and avoid treating dependent resampling folds as independent observations."
+      ]
+    },
+    {
+      "id": "blind-challenges-2026",
+      "title": "Blind Challenges Let Us See the Path Forward for Predictive Models",
+      "date": "2026-02-06",
+      "source_type": "peer-reviewed-viewpoint",
+      "author_relation": "coauthored",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41651797/",
+      "doi": "10.1021/acs.jcim.6c00205",
+      "principles": [
+        "Use prospective blind challenges to measure progress under realistic conditions.",
+        "Pair open high-quality data generation with community evaluation and experimental follow-up."
+      ]
+    }
+  ]
+}

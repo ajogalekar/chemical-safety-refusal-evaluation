@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-05",
+  "inventory_records": 59,
+  "claim_ledger_rows": 10,
+  "scripts": [
+    "reanalysis/code/reanalyse.py",
+    "reanalysis/code/reanalyse_xstest.py",
+    "reanalysis/code/reanalyse_refusalbench.py",
+    "code/reanalyse_dualchem_aggregates.py"
+  ],
+  "analysis_scope": "Released labels and aggregate counts only; no new model calls",
+  "license_authorization": "Author confirmed CC BY 4.0 for manuscript and MIT for original analysis/PatAgent code; no funding; no competing interests."
+}

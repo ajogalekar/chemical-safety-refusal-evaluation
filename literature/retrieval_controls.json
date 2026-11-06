@@ -1,0 +1,29 @@
+[
+  {
+    "key": "molrep",
+    "url": "https://aclanthology.org/2026.emnlp-main.2621.pdf",
+    "retrieved_utc": "2026-10-31T23:53:57.232052+00:00",
+    "resolved_url": "https://aclanthology.org/2026.emnlp-main.2621.pdf",
+    "status": "retrieved",
+    "bytes": 1774508,
+    "sha256": "5326d7497be38118e892da27d05dbfdfd446b8830ff3f0ad3de3d5f47a5543c3"
+  },
+  {
+    "key": "chemreason",
+    "url": "https://aclanthology.org/2026.acl-long.1535.pdf",
+    "retrieved_utc": "2026-10-31T23:53:57.232473+00:00",
+    "resolved_url": "https://aclanthology.org/2026.acl-long.1535.pdf",
+    "status": "retrieved",
+    "bytes": 2201800,
+    "sha256": "80b2d3329ffc0dac72b1452fe45890f5882846470d90f0a8887ff6ee2ea1a18b"
+  },
+  {
+    "key": "sciknoweval",
+    "url": "https://arxiv.org/pdf/2406.09098v2",
+    "retrieved_utc": "2026-10-31T23:53:57.232578+00:00",
+    "resolved_url": "https://arxiv.org/pdf/2406.09098v2",
+    "status": "retrieved",
+    "bytes": 776256,
+    "sha256": "e5ae032ffad005d612f75ceb9dc18a6bb83e7ff6347ab1ec7680d369975a1769"
+  }
+]

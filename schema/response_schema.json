@@ -1,0 +1,303 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Chemical model evaluation outcome record",
+  "description": "Proposed reporting schema, version 0.1. Not a validated instrument. No experimental data accompany the blank template.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "record_id",
+    "entity_id",
+    "family_id",
+    "task_id",
+    "model_snapshot",
+    "generation_index",
+    "representation",
+    "information_condition",
+    "raw_output_path",
+    "missingness_reason"
+  ],
+  "properties": {
+    "record_id": {
+      "type": "string",
+      "description": "Unique initiated-task record."
+    },
+    "entity_id": {
+      "type": "string",
+      "description": "Normalized chemical entity key; identity convention recorded separately."
+    },
+    "family_id": {
+      "type": "string",
+      "description": "Prespecified chemical family block; not inferred from outcome."
+    },
+    "task_id": {
+      "type": "string",
+      "description": "Question identity shared across paired conditions."
+    },
+    "template_id": {
+      "type": "string",
+      "description": "Shared wording family."
+    },
+    "model_snapshot": {
+      "type": "string",
+      "description": "Exact model identifier and access date; also record provider drift."
+    },
+    "prompt_sha256": {
+      "type": "string",
+      "description": "Hash of exact prompt/configuration artifact."
+    },
+    "representation": {
+      "type": "string",
+      "description": "Identifier form assigned."
+    },
+    "information_condition": {
+      "type": "string",
+      "description": "No aid, identity only, or identity plus facts; controlled independently of entity."
+    },
+    "resource_envelope_id": {
+      "type": "string",
+      "description": "Versioned inventory, equipment, permitted operations, time and expertise specification."
+    },
+    "rubric_version": {
+      "type": "string",
+      "description": "Frozen correctness, completeness and appropriateness rubric."
+    },
+    "judge_version": {
+      "type": "string",
+      "description": "Human or model adjudication record."
+    },
+    "raw_output_path": {
+      "type": "string",
+      "description": "Pointer to immutable output, or failure log."
+    },
+    "missingness_reason": {
+      "type": "string",
+      "description": "Explanation for every unmeasured field; structured companion recommended."
+    },
+    "normalization_policy": {
+      "type": "string",
+      "description": "Salt, stereo, tautomer and mixture policy."
+    },
+    "policy_context": {
+      "type": "string",
+      "description": "Request-level normative policy; not chemical hazard classification."
+    },
+    "recognition_probe_id": {
+      "type": "string",
+      "description": "Link to independent-session identity measurement, or blank when unmeasured."
+    },
+    "reference_set_id": {
+      "type": "string",
+      "description": "Versioned structure/reference set used for similarity or novelty covariates."
+    },
+    "fingerprint_specification": {
+      "type": "string",
+      "description": "Algorithm, radius, bit length and similarity function where applicable."
+    },
+    "familiarity_proxy": {
+      "type": "string",
+      "description": "Declared literature/name-frequency proxy and measurement date; not training exposure."
+    },
+    "decoding_configuration": {
+      "type": "string",
+      "description": "Temperature, seed if exposed, and output budget."
+    },
+    "tool_budget": {
+      "type": "string",
+      "description": "Tools, call budget and retrieval access configuration."
+    },
+    "participant_id": {
+      "type": "string",
+      "description": "Only where a human participant contributes; blank otherwise."
+    },
+    "batch_id": {
+      "type": "string",
+      "description": "Only for physical execution; blank otherwise."
+    },
+    "generation_index": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "target_resolution": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "correct",
+        "incorrect",
+        "ambiguous",
+        "unresolved",
+        null
+      ],
+      "description": "Independent identity assessment when performed; null means unmeasured."
+    },
+    "refusal_scope": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "none",
+        "partial",
+        "full",
+        null
+      ],
+      "description": "Observed refusal behavior, independent of substantive content or correctness."
+    },
+    "stated_reason": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "safety_policy",
+        "uncertainty",
+        "missing_context",
+        "resource_constraint",
+        "mixed",
+        "other",
+        "none",
+        null
+      ],
+      "description": "Stated explanation only; does not identify an internal mechanism."
+    },
+    "substantive_attempt": {
+      "type": [
+        "boolean",
+        "null"
+      ],
+      "description": "Some task-relevant answer attempted; can coexist with partial refusal."
+    },
+    "expressed_uncertainty": {
+      "type": [
+        "boolean",
+        "null"
+      ],
+      "description": "Observed uncertainty statement."
+    },
+    "clarification_requested": {
+      "type": [
+        "boolean",
+        "null"
+      ],
+      "description": "Observed request for clarification."
+    },
+    "all_required_facts_correct": {
+      "type": [
+        "boolean",
+        "null"
+      ],
+      "description": "Scored only where a fact answer is attempted and adjudicated."
+    },
+    "critical_error": {
+      "type": [
+        "boolean",
+        "null"
+      ],
+      "description": "Rubric-defined consequential error; not inferred from refusal."
+    },
+    "nearest_reference_similarity": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Similarity to the declared reference set; not synthesis feasibility or pharmacological similarity."
+    },
+    "required_coverage_fraction": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Fraction of prespecified required elements supplied correctly; retain element-level labels separately."
+    },
+    "policy_appropriateness": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "appropriate",
+        "inappropriate",
+        "ambiguous",
+        null
+      ],
+      "description": "External request-level judgment under declared policy."
+    },
+    "tool_status": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "not_used",
+        "completed",
+        "timeout",
+        "loop",
+        "provider_block",
+        "parse_error",
+        "other_failure",
+        null
+      ],
+      "description": "Operational outcome; do not infer safety refusal from failure alone."
+    },
+    "feasibility": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "feasible_within_envelope",
+        "infeasible_within_declared_library",
+        "undetermined",
+        null
+      ],
+      "description": "External feasibility in declared resource envelope; no absolute impossibility implied."
+    },
+    "execution_status": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "not_initiated",
+        "initiated_failed",
+        "completed",
+        "abandoned",
+        null
+      ],
+      "description": "Physical execution status; null for entirely unmeasured execution."
+    },
+    "isolated_yield_fraction": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Measured isolated yield, with experimental method in linked record."
+    },
+    "purity_fraction": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Measured purity; analytical method required in linked record."
+    },
+    "human_interventions": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string"
+      },
+      "description": "Time-stamped intervention IDs; empty list means observed none, null unmeasured."
+    }
+  }
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "source": "wrappers/pat-agent/server.py",
+    "sha256": "4b08e006bd4ea6e24a6910c5a8193d265591ad2c870b6ac0d693cc86604decbe"
+  },
+  {
+    "source": "wrappers/pat-agent/README.md",
+    "sha256": "60904b1f7daff76192af614e72373b8a4e66b8ccc030a4d169a64e7b8007be0c"
+  },
+  {
+    "source": "wrappers/pat-agent/corpus-sources.json",
+    "sha256": "75a74a76767de5236ffcb6371c5b7376133c00737bbca373059e9b775f078a4a"
+  },
+  {
+    "source": "wrappers/pat-agent/evidence.json",
+    "sha256": "0c998fa4d24ad5e33e8b41a5fcfb101a0ae8842758eca4f34d0ac62ab8258b0f"
+  },
+  {
+    "source": "skills/pat-agent/SKILL.md",
+    "original_sha256": "a98881e162bfd2624777ebd3731a635a23d96c3434abefbc98852603156c6adb",
+    "modification": "Local paths replaced with release-relative paths; out-of-scope statistical companion not bundled."
+  },
+  {
+    "source": "agent-specs/pat-agent.yaml",
+    "original_sha256": "630ea778ab6115924e9317d57f09d370c85fc3a289ecbd09f95db486ee2f5de4",
+    "modification": "Release-relative entrypoint; unavailable local companion entry omitted."
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "original_search_record_sha256": "d45c3de5992c9d2ea4d76445a857cabd6987fb9bdaf23e8fc385d7849559d274",
+  "kind": "Source URLs extracted from saved search results; snippets omitted; not a complete query log",
+  "urls": [
+    "https://arxiv.org/abs/2505.21605",
+    "https://arxiv.org/abs/2606.12429",
+    "https://doi.org/10.1038/s41557-025-01815-x",
+    "https://doi.org/10.1145/3768165",
+    "https://github.com/AI45Lab/DeepSafe-Sci/blob/main/docs/benchmark-data.md",
+    "https://github.com/turbobeest/modelspec/blob/main/benchmarks/sosbench.md",
+    "https://huggingface.co/SOSBench",
+    "https://huggingface.co/datasets/SOSBench/SOSBench/tree/main",
+    "https://huggingface.co/papers/2505.21605",
+    "https://openreview.net/pdf?id=lKH8rrjeyn",
+    "https://pars.lasd.org/Viewer/Manuals/GeneratePDF/13233?reportIndex=2",
+    "https://pith.science/p/2505.21605",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12226332/",
+    "https://public.courts.alaska.gov/web/scheduled/docs/UMOT_AU.pdf",
+    "https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks",
+    "https://securebio.org/blog/gemini-4-argon-biology-capabilities-assessment/",
+    "https://sosbench.github.io/",
+    "https://www.nature.com/articles/s41557-025-01815-x.pdf",
+    "https://www.portsmouthri.gov/DocumentCenter/View/7666/April-22---30?bidId=",
+    "https://www.revisor.mn.gov/laws/2026/0/Session%2BLaw/Index/0/pdf/",
+    "https://www.systemcards.org/docs/meta-muse-spark-system-card"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "original_search_record_sha256": "1c8a64ee4a977c3231ed913322f871918c79105edf4e6ed66e173974a164c19b",
+  "kind": "Source URLs extracted from saved search results; snippets omitted; not a complete query log",
+  "urls": [
+    "https://abliteration.org/wiki/the-dimensionality-debate/",
+    "https://arxiv.org/abs/2402.04249",
+    "https://arxiv.org/abs/2405.20947",
+    "https://arxiv.org/abs/2406.11717",
+    "https://arxiv.org/abs/2406.14598",
+    "https://deep-diver.github.io/neurips2024/posters/ph3xaqme6c/",
+    "https://doi.org/10.52202/079017-4322--------------------------------------------------------------------------------",
+    "https://github.com/CuteCuteYu/Refusal-in-Language-Models/blob/main/docs/paper_raw.md",
+    "https://github.com/centerforaisafety/HarmBench.--------------------------------------------------------------------------------",
+    "https://huggingface.co/datasets/bench-llm/or-bench",
+    "https://huggingface.co/spaces/bench-llm/or-bench.",
+    "https://idvorkin-ai-tools.github.io/harmbench-field-map/index.html",
+    "https://idvorkin-ai-tools.github.io/harmbench-field-map/sources.html",
+    "https://jakefrcse.github.io/blog/2026/refusal-direction-reproduction/",
+    "https://lacuna.tiptreesystems.com/work/refusal-in-language-models-is-mediated-by-a-single-direction/wrk_d61e85e313696d2944d84c2a92909153",
+    "https://openreview.net/pdf?id=EqF16oDVFf",
+    "https://papers.neurips.cc/paper_files/paper/2024/file/f545448535dfde4f9786555403ab7c49-Paper-Conference.pdf",
+    "https://papers.neurips.cc/paper_files/paper/2024/hash/f545448535dfde4f9786555403ab7c49-Abstract-Conference.html",
+    "https://sorry-bench.github.io/index.html",
+    "https://ta-paperlens.web.app/en/a/refusal-in-language-models-is-mediated-by-a-single-direction/",
+    "https://www.failurefirst.org/daily-paper/refusal-mediated-single-direction/",
+    "https://www.proceedings.com/content/079/079017-4322open.pdf"
+  ]
+}

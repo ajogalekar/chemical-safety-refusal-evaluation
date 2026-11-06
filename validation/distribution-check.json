@@ -1,0 +1,19 @@
+{
+  "document_checks": [
+    {
+      "document": "manuscript",
+      "comments": 0,
+      "tracked_changes": 0
+    },
+    {
+      "document": "supporting-information",
+      "comments": 0,
+      "tracked_changes": 0
+    }
+  ],
+  "credential_pattern_scan": "No matches for the tested key/private-key patterns; heuristic check, not a security certification",
+  "personal_absolute_paths_and_temporary_download_urls": "None found in inspected text files",
+  "third_party_fulltext_caches": "Not included",
+  "benchmark_prompt_response_prose": "Not included; XSTest projected fields and RefusalBench released labels retained",
+  "input_source_pins": "All five XSTest original files and RefusalBench CSV independently downloaded from pinned revisions and byte-matched before release"
+}

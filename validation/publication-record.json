@@ -1,0 +1,7 @@
+{
+  "date": "2026-11-05",
+  "repository": "https://github.com/ajogalekar/chemical-safety-refusal-evaluation",
+  "tag": "v0.1.0",
+  "changes": "Repository metadata and public packaging only; numerical scripts, inputs and results unchanged. Manuscript Word/PDF and draft Markdown are omitted from the code repository; analysis methods are included as documentation.",
+  "preparation_archive_sha256": "9cdaeddc7641860c4faf505c56006a35c9adb9fd6e05e0f2b771138e0dc88d76"
+}

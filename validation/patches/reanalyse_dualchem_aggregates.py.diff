@@ -1,0 +1,10 @@
+--- original/code/reanalyse_dualchem_aggregates.py
++++ release/code/reanalyse_dualchem_aggregates.py
+@@ -2,6 +2,7 @@
+ import json, math
+ from pathlib import Path
+ root=Path(__file__).resolve().parents[1]
++(root/'results').mkdir(parents=True,exist_ok=True)
+ n,b,c=600,160,64
+ p=min(1,2*sum(math.comb(b+c,k) for k in range(min(b,c)+1))/2**(b+c))
+ d=(b-c)/n

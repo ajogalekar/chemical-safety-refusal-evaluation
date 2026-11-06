@@ -1,0 +1,569 @@
+[
+  {
+    "text": "PROPOSED STUDY",
+    "x": 24,
+    "baseline_top": 27,
+    "size": 11.5,
+    "font": "StudyBold"
+  },
+  {
+    "text": "Measuring chemical safety and refusal",
+    "x": 24,
+    "baseline_top": 57,
+    "size": 24,
+    "font": "StudyBold"
+  },
+  {
+    "text": "Hold the chemical question fixed. Vary the inputs. Measure each outcome separately.",
+    "x": 24,
+    "baseline_top": 80,
+    "size": 13,
+    "font": "StudySans"
+  },
+  {
+    "text": "Before testing",
+    "x": 40,
+    "baseline_top": 117,
+    "size": 12.5,
+    "font": "StudyBold"
+  },
+  {
+    "text": "Prespecify sampling, outcomes, comparisons and analysis.",
+    "x": 143,
+    "baseline_top": 117,
+    "size": 12.5,
+    "font": "StudySans"
+  },
+  {
+    "text": "Develop prompts and scoring rules on a separate set of entities.",
+    "x": 40,
+    "baseline_top": 137,
+    "size": 12.5,
+    "font": "StudySans"
+  },
+  {
+    "text": "1",
+    "x": 53,
+    "baseline_top": 192,
+    "size": 13,
+    "font": "StudyBold"
+  },
+  {
+    "text": "Select and verify the chemical questions",
+    "x": 75,
+    "baseline_top": 192,
+    "size": 15,
+    "font": "StudyBold"
+  },
+  {
+    "text": "60 entities   /   30 prespecified chemical-family blocks   /   1 protective question per entity",
+    "x": 40,
+    "baseline_top": 217,
+    "size": 14,
+    "font": "StudyBold"
+  },
+  {
+    "text": "Verify identities, reference answers and required coverage. Document structural and question diversity.",
+    "x": 40,
+    "baseline_top": 239,
+    "size": 12.5,
+    "font": "StudySans"
+  },
+  {
+    "text": "Include ordinary and hazard-associated mentions; hazard category guides sampling, not refusal labels.",
+    "x": 40,
+    "baseline_top": 259,
+    "size": 12.5,
+    "font": "StudySans"
+  },
+  {
+    "text": "2",
+    "x": 53,
+    "baseline_top": 330,
+    "size": 13,
+    "font": "StudyBold"
+  },
+  {
+    "text": "Vary the inputs",
+    "x": 75,
+    "baseline_top": 330,
+    "size": 15,
+    "font": "StudyBold"
+  },
+  {
+    "text": "Same entity and safety question in all six conditions.",
+    "x": 40,
+    "baseline_top": 351,
+    "size": 12.5,
+    "font": "StudySans"
+  },
+  {
+    "text": "Initial identifier",
+    "x": 40,
+    "baseline_top": 374,
+    "size": 10.5,
+    "font": "StudyBold"
+  },
+  {
+    "text": "No help",
+    "x": 178.0,
+    "baseline_top": 374,
+    "size": 12,
+    "font": "StudyBold"
+  },
+  {
+    "text": "No added",
+    "x": 178.0,
+    "baseline_top": 408,
+    "size": 12.2,
+    "font": "StudySans"
+  },
+  {
+    "text": "information",
+    "x": 178.0,
+    "baseline_top": 424,
+    "size": 12.2,
+    "font": "StudySans"
+  },
+  {
+    "text": "No added",
+    "x": 178.0,
+    "baseline_top": 463,
+    "size": 12.2,
+    "font": "StudySans"
+  },
+  {
+    "text": "information",
+    "x": 178.0,
+    "baseline_top": 479,
+    "size": 12.2,
+    "font": "StudySans"
+  },
+  {
+    "text": "Identity bridge",
+    "x": 314.0,
+    "baseline_top": 374,
+    "size": 12,
+    "font": "StudyBold"
+  },
+  {
+    "text": "Name + SMILES",
+    "x": 314.0,
+    "baseline_top": 408,
+    "size": 12.2,
+    "font": "StudySans"
+  },
+  {
+    "text": "link only",
+    "x": 314.0,
+    "baseline_top": 424,
+    "size": 12.2,
+    "font": "StudySans"
+  },
+  {
+    "text": "Name + SMILES",
+    "x": 314.0,
+    "baseline_top": 463,
+    "size": 12.2,
+    "font": "StudySans"
+  },
+  {
+    "text": "link only",
+    "x": 314.0,
+    "baseline_top": 479,
+    "size": 12.2,
+    "font": "StudySans"
+  },
+  {
+    "text": "Bridge + facts",
+    "x": 450.0,
+    "baseline_top": 374,
+    "size": 12,
+    "font": "StudyBold"
+  },
+  {
+    "text": "Link + verified",
+    "x": 450.0,
+    "baseline_top": 408,
+    "size": 12.2,
+    "font": "StudySans"
+  },
+  {
+    "text": "safety facts",
+    "x": 450.0,
+    "baseline_top": 424,
+    "size": 12.2,
+    "font": "StudySans"
+  },
+  {
+    "text": "Link + verified",
+    "x": 450.0,
+    "baseline_top": 463,
+    "size": 12.2,
+    "font": "StudySans"
+  },
+  {
+    "text": "safety facts",
+    "x": 450.0,
+    "baseline_top": 479,
+    "size": 12.2,
+    "font": "StudySans"
+  },
+  {
+    "text": "Name",
+    "x": 40,
+    "baseline_top": 418,
+    "size": 13,
+    "font": "StudyBold"
+  },
+  {
+    "text": "SMILES",
+    "x": 40,
+    "baseline_top": 473,
+    "size": 13,
+    "font": "StudyBold"
+  },
+  {
+    "text": "The bridge supplies the identifier pair, without the requested safety fact.",
+    "x": 40,
+    "baseline_top": 519,
+    "size": 11.8,
+    "font": "StudySans"
+  },
+  {
+    "text": "SECONDARY MEASURE",
+    "x": 564,
+    "baseline_top": 325,
+    "size": 10.5,
+    "font": "StudyBold"
+  },
+  {
+    "text": "Test recognition",
+    "x": 564,
+    "baseline_top": 349,
+    "size": 15,
+    "font": "StudyBold"
+  },
+  {
+    "text": "Separate fresh sessions",
+    "x": 564,
+    "baseline_top": 370,
+    "size": 11.8,
+    "font": "StudySans"
+  },
+  {
+    "text": "60 entities",
+    "x": 564,
+    "baseline_top": 398,
+    "size": 13,
+    "font": "StudySans"
+  },
+  {
+    "text": "\u00d7 2 identifiers",
+    "x": 564,
+    "baseline_top": 416,
+    "size": 13,
+    "font": "StudySans"
+  },
+  {
+    "text": "\u00d7 2 model snapshots",
+    "x": 564,
+    "baseline_top": 434,
+    "size": 13,
+    "font": "StudySans"
+  },
+  {
+    "text": "240 probe calls",
+    "x": 564,
+    "baseline_top": 455,
+    "size": 16,
+    "font": "StudyBold"
+  },
+  {
+    "text": "No probe or answer is",
+    "x": 564,
+    "baseline_top": 480,
+    "size": 12,
+    "font": "StudySans"
+  },
+  {
+    "text": "passed to the main task.",
+    "x": 564,
+    "baseline_top": 496,
+    "size": 12,
+    "font": "StudySans"
+  },
+  {
+    "text": "Recognition does not",
+    "x": 564,
+    "baseline_top": 518,
+    "size": 11.4,
+    "font": "StudySans"
+  },
+  {
+    "text": "select the main sample.",
+    "x": 564,
+    "baseline_top": 532,
+    "size": 11.4,
+    "font": "StudySans"
+  },
+  {
+    "text": "3",
+    "x": 53,
+    "baseline_top": 584,
+    "size": 13,
+    "font": "StudyBold"
+  },
+  {
+    "text": "Run each condition",
+    "x": 75,
+    "baseline_top": 584,
+    "size": 15,
+    "font": "StudyBold"
+  },
+  {
+    "text": "1,440 calls",
+    "x": 513,
+    "baseline_top": 584,
+    "size": 13,
+    "font": "StudyBold"
+  },
+  {
+    "text": "2 fixed model snapshots \u00d7 2 generations per condition",
+    "x": 40,
+    "baseline_top": 606,
+    "size": 12.7,
+    "font": "StudyBold"
+  },
+  {
+    "text": "Fresh sessions; randomized order; fixed reasoning and decoding settings.",
+    "x": 40,
+    "baseline_top": 625,
+    "size": 12,
+    "font": "StudySans"
+  },
+  {
+    "text": "Equal output budgets and tool access.",
+    "x": 40,
+    "baseline_top": 643,
+    "size": 12,
+    "font": "StudySans"
+  },
+  {
+    "text": "Baselines: identifier lookup \u00b7 fact retrieval \u00b7 abstain-all.",
+    "x": 40,
+    "baseline_top": 660,
+    "size": 11.8,
+    "font": "StudySans"
+  },
+  {
+    "text": "1,680",
+    "x": 564,
+    "baseline_top": 592,
+    "size": 28,
+    "font": "StudyBold"
+  },
+  {
+    "text": "planned model calls",
+    "x": 564,
+    "baseline_top": 611,
+    "size": 12,
+    "font": "StudySans"
+  },
+  {
+    "text": "1,440 main + 240 probes",
+    "x": 564,
+    "baseline_top": 634,
+    "size": 12,
+    "font": "StudySans"
+  },
+  {
+    "text": "Design only; no results.",
+    "x": 564,
+    "baseline_top": 655,
+    "size": 11.5,
+    "font": "StudySans"
+  },
+  {
+    "text": "4",
+    "x": 53,
+    "baseline_top": 724,
+    "size": 13,
+    "font": "StudyBold"
+  },
+  {
+    "text": "Record and score every initiated task",
+    "x": 75,
+    "baseline_top": 724,
+    "size": 15,
+    "font": "StudyBold"
+  },
+  {
+    "text": "Refusal",
+    "x": 40,
+    "baseline_top": 750,
+    "size": 12.7,
+    "font": "StudyBold"
+  },
+  {
+    "text": "What was withheld,",
+    "x": 40,
+    "baseline_top": 769,
+    "size": 11.9,
+    "font": "StudySans"
+  },
+  {
+    "text": "stated reason, uncertainty",
+    "x": 40,
+    "baseline_top": 785,
+    "size": 11.9,
+    "font": "StudySans"
+  },
+  {
+    "text": "Answer quality",
+    "x": 213,
+    "baseline_top": 750,
+    "size": 12.7,
+    "font": "StudyBold"
+  },
+  {
+    "text": "Attempt, correctness,",
+    "x": 213,
+    "baseline_top": 769,
+    "size": 11.9,
+    "font": "StudySans"
+  },
+  {
+    "text": "required coverage",
+    "x": 213,
+    "baseline_top": 785,
+    "size": 11.9,
+    "font": "StudySans"
+  },
+  {
+    "text": "Appropriateness",
+    "x": 386,
+    "baseline_top": 750,
+    "size": 12.7,
+    "font": "StudyBold"
+  },
+  {
+    "text": "Policy-based judgment;",
+    "x": 386,
+    "baseline_top": 769,
+    "size": 11.9,
+    "font": "StudySans"
+  },
+  {
+    "text": "mixed or unclear cases",
+    "x": 386,
+    "baseline_top": 785,
+    "size": 11.9,
+    "font": "StudySans"
+  },
+  {
+    "text": "Technical status",
+    "x": 559,
+    "baseline_top": 750,
+    "size": 12.7,
+    "font": "StudyBold"
+  },
+  {
+    "text": "Missing outputs, blocks,",
+    "x": 559,
+    "baseline_top": 769,
+    "size": 11.9,
+    "font": "StudySans"
+  },
+  {
+    "text": "parsing and tool failures",
+    "x": 559,
+    "baseline_top": 785,
+    "size": 11.9,
+    "font": "StudySans"
+  },
+  {
+    "text": "Two human raters; agreement before adjudication. A technical failure is recorded separately from refusal.",
+    "x": 40,
+    "baseline_top": 812,
+    "size": 12,
+    "font": "StudySans"
+  },
+  {
+    "text": "5",
+    "x": 53,
+    "baseline_top": 878,
+    "size": 13,
+    "font": "StudyBold"
+  },
+  {
+    "text": "Compare conditions and estimate uncertainty",
+    "x": 75,
+    "baseline_top": 878,
+    "size": 15,
+    "font": "StudyBold"
+  },
+  {
+    "text": "Identifier: name vs SMILES, without help.",
+    "x": 40,
+    "baseline_top": 902,
+    "size": 12.4,
+    "font": "StudySans"
+  },
+  {
+    "text": "Bridge: linked pair vs no help.",
+    "x": 40,
+    "baseline_top": 921,
+    "size": 12.4,
+    "font": "StudySans"
+  },
+  {
+    "text": "Facts: bridge + facts vs bridge alone.",
+    "x": 40,
+    "baseline_top": 940,
+    "size": 12.4,
+    "font": "StudySans"
+  },
+  {
+    "text": "Average repeats; pair conditions within each entity.",
+    "x": 394,
+    "baseline_top": 902,
+    "size": 11.6,
+    "font": "StudySans"
+  },
+  {
+    "text": "Report bridge and fact effects by initial identifier.",
+    "x": 394,
+    "baseline_top": 917,
+    "size": 11.6,
+    "font": "StudySans"
+  },
+  {
+    "text": "Resample family blocks; prespecify Holm adjustment.",
+    "x": 394,
+    "baseline_top": 932,
+    "size": 11.6,
+    "font": "StudySans"
+  },
+  {
+    "text": "Report all-task success and attempted-answer accuracy.",
+    "x": 394,
+    "baseline_top": 947,
+    "size": 11.6,
+    "font": "StudySans"
+  },
+  {
+    "text": "These contrasts estimate input effects; they do not uniquely identify the internal cause of a refusal.",
+    "x": 40,
+    "baseline_top": 964,
+    "size": 11.7,
+    "font": "StudySans"
+  },
+  {
+    "text": "Scope: legitimate safety questions. Unsafe compliance and experimental execution need separate studies.",
+    "x": 24,
+    "baseline_top": 996,
+    "size": 11.8,
+    "font": "StudySans"
+  }
+]

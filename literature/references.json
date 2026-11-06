@@ -1,0 +1,418 @@
+[
+  {
+    "number": 1,
+    "key": "stream",
+    "reference": "1. McCaslin, T.; Alaga, J.; Nedungadi, S.; Donoughe, S.; Reed, T.; Bommasani, R.; Painter, C.; Righetti, L. STREAM (ChemBio): A Standard for Transparently Reporting Evaluations in AI Model Reports. arXiv:2508.09853v2, 3 September (2025).",
+    "urls": [
+      "https://arxiv.org/abs/2508.09853v2"
+    ]
+  },
+  {
+    "number": 2,
+    "key": "construct",
+    "reference": "2. Bean, A. M., et al. Measuring what Matters: Construct Validity in Large Language Model Benchmarks. arXiv:2511.04703v1, 3 November; NeurIPS 2025 Datasets and Benchmarks (2025).",
+    "urls": [
+      "https://arxiv.org/abs/2511.04703v1"
+    ]
+  },
+  {
+    "number": 3,
+    "key": "wen",
+    "reference": "3. Wen, B.; Yao, J.; Feng, S.; Xu, C.; Tsvetkov, Y.; Howe, B.; Wang, L. L. Know Your Limits: A Survey of Abstention in Large Language Models. Transactions of the Association for Computational Linguistics 13, 529–556 (2025).",
+    "urls": [
+      "https://aclanthology.org/2025.tacl-1.26/"
+    ]
+  },
+  {
+    "number": 4,
+    "key": "strongreject",
+    "reference": "4. Souly, A.; Lu, Q.; Bowen, D., et al. A StrongREJECT for Empty Jailbreaks. arXiv:2402.10260v2, 27 August; NeurIPS 2024 (2024).",
+    "urls": [
+      "https://arxiv.org/abs/2402.10260v2"
+    ]
+  },
+  {
+    "number": 5,
+    "key": "dualchem",
+    "reference": "5. Sehwag, U. M.; Dalvi, A.; Maurya, Y.; Rein, D.; Hardee, D.; Kritz, J.; Nguyen, J.; Herring, B.; Fuelle, E.; Knight, C. Q.; Brandifino, J.; Fenkell, M. DualChem: Measuring LLM Uplift and Dual-Use Risk Awareness in Chemistry. Scale AI technical report; official PDF linked to 28 October release, retrieved 31 October (2026).",
+    "urls": [
+      "https://labs.scale.com/papers/dualchem"
+    ]
+  },
+  {
+    "number": 6,
+    "key": "safesci",
+    "reference": "6. Zhu, X.; Tian, Y.; Jia, Q.; Zhang, K.; Zhang, Z.; Li, C.; Chen, Z.; Sun, L.; Ji, K.; Zhang, R.; Sun, W.; Zhai, G. SafeSci: Safety Evaluation of Large Language Models in Science Domains and Beyond. Proceedings of Machine Learning Research 306, 167724–167752 (2026).",
+    "urls": [
+      "https://proceedings.mlr.press/v306/zhu26ar.html"
+    ]
+  },
+  {
+    "number": 7,
+    "key": "grounded",
+    "reference": "7. Muhamed, A.; Ribeiro, L. F. R.; Dreyer, M.; Smith, V.; Diab, M. T. RefusalBench: Generative Evaluation of Selective Refusal in Grounded Language Models. EACL 2026 (2026).",
+    "urls": [
+      "https://aclanthology.org/2026.eacl-long.321/"
+    ]
+  },
+  {
+    "number": 8,
+    "key": "abstentionbench",
+    "reference": "8. Kirichenko, P.; Ibrahim, M.; Chaudhuri, K.; Bell, S. J. AbstentionBench: Reasoning LLMs Fail on Unanswerable Questions. arXiv:2506.09038 (2025).",
+    "urls": [
+      "https://arxiv.org/abs/2506.09038"
+    ]
+  },
+  {
+    "number": 9,
+    "key": "onepot",
+    "reference": "9. Wang, B.; Tyrin, A. S.; Boiko, D. A. onepot-Bench 0: towards lab-aware in silico chemistry benchmarks. arXiv:2608.02595v1, 3 August (2026).",
+    "urls": [
+      "https://arxiv.org/abs/2608.02595v1"
+    ]
+  },
+  {
+    "number": 10,
+    "key": "chemid",
+    "reference": "10. Saadi, K.; Wang, D. Same Molecule, Different Knowledge: Cross-Identifier Binding Failures in LLMs for Chemistry. arXiv:2610.30903v1, 22 October (2026).",
+    "urls": [
+      "https://arxiv.org/abs/2610.30903v1"
+    ]
+  },
+  {
+    "number": 11,
+    "key": "agentharm",
+    "reference": "11. Andriushchenko, M., et al. AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents. ICLR 2025; examined arXiv:2410.09024v3, 18 April (2025).",
+    "urls": [
+      "https://arxiv.org/abs/2410.09024v3"
+    ]
+  },
+  {
+    "number": 12,
+    "key": "xstest",
+    "reference": "12. Röttger, P.; Kirk, H. R.; Vidgen, B.; Attanasio, G.; Bianchi, F.; Hovy, D. XSTest: A Test Suite for Identifying Exaggerated Safety Behaviours in Large Language Models. NAACL 2024, 5377–5400 (2024).",
+    "urls": [
+      "https://aclanthology.org/2024.naacl-long.301/"
+    ]
+  },
+  {
+    "number": 13,
+    "key": "unified",
+    "reference": "13. Son, Y.; Kim, S.; Kim, H. J.; Kim, T. A Unified Mechanistic Analysis of Knowledge- and Safety-Based Refusals. arXiv:2609.00760v1, 1 September; EMNLP 2026 final version separately verified (2026).",
+    "urls": [
+      "https://arxiv.org/abs/2609.00760v1"
+    ]
+  },
+  {
+    "number": 14,
+    "key": "chemsafety",
+    "reference": "14. Zhao, H., et al. ChemSafetyBench: Benchmarking LLM Safety on Chemistry Domain. arXiv:2411.16736v1, 23 November (2024).",
+    "urls": [
+      "https://arxiv.org/abs/2411.16736v1"
+    ]
+  },
+  {
+    "number": 15,
+    "key": "ri",
+    "reference": "15. Pan, W.; Xu, J.; Chen, Q.; Dong, J.; Qin, L.; Li, X.; Yu, H.; Jia, X. Can LLMs Refuse Questions They Do Not Know? Measuring Knowledge-Aware Refusal in Factual Tasks. arXiv:2510.01782v2, 16 May; ICLR 2026 (2026).",
+    "urls": [
+      "https://arxiv.org/abs/2510.01782v2"
+    ]
+  },
+  {
+    "number": 16,
+    "key": "refusalbench",
+    "reference": "16. Weidener, L.; Brkić, M.; Jovanović, M.; Ulgac, E.; Meduri, A. RefusalBench: Why Refusal Rate Misranks Frontier LLMs on Biological Research Prompts. arXiv:2605.21545v1, 20 May (2026).",
+    "urls": [
+      "https://arxiv.org/abs/2605.21545v1"
+    ]
+  },
+  {
+    "number": 17,
+    "key": "chembench",
+    "reference": "17. Mirza, A., et al. A framework for evaluating the chemical knowledge and reasoning abilities of large language models against the expertise of chemists. Nature Chemistry 17, 1027–1034 (2025).",
+    "urls": [
+      "https://doi.org/10.1038/s41557-025-01815-x"
+    ]
+  },
+  {
+    "number": 18,
+    "key": "labsafety",
+    "reference": "18. Zhou, Y., et al. Benchmarking large language models on safety risks in scientific laboratories. Nature Machine Intelligence 8, 20–31; methods examined in arXiv:2410.14182v4, 12 February (2026).",
+    "urls": [
+      "https://doi.org/10.1038/s42256-025-01152-1"
+    ]
+  },
+  {
+    "number": 19,
+    "key": "scisafeeval",
+    "reference": "19. Li, T., et al. SciSafeEval: A Comprehensive Benchmark for Safety Alignment of Large Language Models in Scientific Tasks. arXiv:2410.03769v2, 16 December (2024).",
+    "urls": [
+      "https://arxiv.org/abs/2410.03769v2"
+    ]
+  },
+  {
+    "number": 20,
+    "key": "sos",
+    "reference": "20. Jiang, F.; Ma, F.; Xu, Z.; Li, Y.; Rao, Z.; Ramasubramanian, B.; Niu, L.; Li, B.; Chen, X.; Xiang, Z.; Poovendran, R. SoSBench: Benchmarking Safety Alignment on Six Scientific Domains. arXiv:2505.21605v3, 5 April; ICLR 2026 (2026).",
+    "urls": [
+      "https://arxiv.org/abs/2505.21605v3"
+    ]
+  },
+  {
+    "number": 21,
+    "key": "chemref",
+    "reference": "21. Surana, R.; Ye, Q.; Swayamdipta, S. ChEmREF: Evaluating Language Model Readiness for Chemical Emergency Response. arXiv:2511.10027v2, 14 November (2025).",
+    "urls": [
+      "https://arxiv.org/abs/2511.10027v2"
+    ]
+  },
+  {
+    "number": 22,
+    "key": "chemreason",
+    "reference": "22. Zhang, J.; Liang, X.; Zhang, Y.; Yu, R.; Yang, X.; Jin, Y.; Xu, Y. ChemReason-Bench: Benchmarking Large Language Models for Procedural Reasoning in Experimental Chemistry. ACL 2026 (2026).",
+    "urls": [
+      "https://aclanthology.org/2026.acl-long.1535/"
+    ]
+  },
+  {
+    "number": 23,
+    "key": "molrep",
+    "reference": "23. Raja, A.; Morris, G. M.; Chai, K. M. A. Rethinking Molecular Text Representations for LLMs: An Empirical Study. EMNLP 2026 (2026).",
+    "urls": [
+      "https://aclanthology.org/2026.emnlp-main.2621/"
+    ]
+  },
+  {
+    "number": 24,
+    "key": "tooling",
+    "reference": "24. Yu, B.; Baker, F. N.; Chen, Z.; Herb, G.; Gou, B.; Adu-Ampratwum, D.; Ning, X.; Sun, H. ChemToolAgent: The Impact of Tools on Language Agents for Chemistry Problem Solving. arXiv:2411.07228v3, 26 May (2025).",
+    "urls": [
+      "https://arxiv.org/abs/2411.07228v3"
+    ]
+  },
+  {
+    "number": 25,
+    "key": "chemcrow",
+    "reference": "25. Bran, A. M.; Cox, S.; Schilter, O.; Baldassari, C.; White, A. D.; Schwaller, P. Augmenting large language models with chemistry tools. Nature Machine Intelligence 6, 525–535 (2024).",
+    "urls": [
+      "https://doi.org/10.1038/s42256-024-00832-8"
+    ]
+  },
+  {
+    "number": 26,
+    "key": "llmrdf",
+    "reference": "26. Ruan, Y., et al. An automatic end-to-end chemical synthesis development platform powered by large language models. Nature Communications 15, 10160 (2024).",
+    "urls": [
+      "https://doi.org/10.1038/s41467-024-54457-x"
+    ]
+  },
+  {
+    "number": 27,
+    "key": "coscientist",
+    "reference": "27. Boiko, D. A.; MacKnight, R.; Kline, B.; Gomes, G. Autonomous chemical research with large language models. Nature 624, 570–578 (2023).",
+    "urls": [
+      "https://doi.org/10.1038/s41586-023-06792-0"
+    ]
+  },
+  {
+    "number": 28,
+    "key": "wetlab",
+    "reference": "28. Hong, S. Z., et al. Measuring Mid-2025 LLM-Assistance on Novice Performance in Biology. arXiv:2602.16703v1, 18 February (2026).",
+    "urls": [
+      "https://arxiv.org/abs/2602.16703v1"
+    ]
+  },
+  {
+    "number": 29,
+    "key": "insilico",
+    "reference": "29. Zhang, C. B. C., et al. LLM Novice Uplift on Dual-Use, In Silico Biology Tasks. arXiv:2602.23329v2, 13 March (2026).",
+    "urls": [
+      "https://arxiv.org/abs/2602.23329v2"
+    ]
+  },
+  {
+    "number": 30,
+    "key": "bender",
+    "reference": "30. Bender, A.; Schneider, N.; Segler, M.; Walters, W. P.; Engkvist, O.; Rodrigues, T. Evaluation guidelines for machine learning tools in the chemical sciences. Nature Reviews Chemistry 6, 428–442 (2022).",
+    "urls": [
+      "https://doi.org/10.1038/s41570-022-00391-9"
+    ]
+  },
+  {
+    "number": 31,
+    "key": "waltersbench",
+    "reference": "31. Walters, W. P. We Need Better Benchmarks for Machine Learning in Drug Discovery. Practical Cheminformatics, 3 August (2023).",
+    "urls": [
+      "https://practicalcheminformatics.blogspot.com/2023/08/we-need-better-benchmarks-for-machine.html"
+    ]
+  },
+  {
+    "number": 32,
+    "key": "walterssplit",
+    "reference": "32. Walters, W. P. Some Thoughts on Splitting Chemical Datasets. Practical Cheminformatics, November (2024).",
+    "urls": [
+      "https://practicalcheminformatics.blogspot.com/2024/11/some-thoughts-on-splitting-chemical.html"
+    ]
+  },
+  {
+    "number": 33,
+    "key": "walterstaut",
+    "reference": "33. Walters, W. P. The Trouble With Tautomers. Practical Cheminformatics, 6 May; accessed 31 October 2026 (2025).",
+    "urls": [
+      "https://patwalters.github.io/The-Trouble-With-Tautomers/"
+    ]
+  },
+  {
+    "number": 34,
+    "key": "mcnemar",
+    "reference": "34. McNemar, Q. Note on the sampling error of the difference between correlated proportions or percentages. Psychometrika 12, 153–157 (1947).",
+    "urls": [
+      "https://doi.org/10.1007/BF02295996"
+    ]
+  },
+  {
+    "number": 35,
+    "key": "holm",
+    "reference": "35. Holm, S. A Simple Sequentially Rejective Multiple Test Procedure. Scandinavian Journal of Statistics 6, 65–70 (1979).",
+    "urls": [
+      "https://www.jstor.org/stable/4615733"
+    ]
+  },
+  {
+    "number": 36,
+    "key": "field",
+    "reference": "36. Field, C. A.; Welsh, A. H. Bootstrapping clustered data. Journal of the Royal Statistical Society: Series B 69, 369–390 (2007).",
+    "urls": [
+      "https://doi.org/10.1111/j.1467-9868.2007.00593.x"
+    ]
+  },
+  {
+    "number": 37,
+    "key": "nicholls",
+    "reference": "37. Nicholls, A. Confidence limits, error bars and method comparison in molecular modeling. Part 2: comparing methods. Journal of Computer-Aided Molecular Design 30, 103–126 (2016).",
+    "urls": [
+      "https://doi.org/10.1007/s10822-016-9904-5"
+    ]
+  },
+  {
+    "number": 38,
+    "key": "chemcomp",
+    "reference": "38. Khodadad, M.; Kasmaee, A. S.; Astaraki, M.; Sherck, N.; Mahyar, H.; Samiee, S. Evaluating Multi-Hop Reasoning in Large Language Models: A Chemistry-Centric Benchmark. Findings of EACL 2026, 6117–6143 (2026).",
+    "urls": [
+      "https://aclanthology.org/2026.findings-eacl.322/"
+    ]
+  },
+  {
+    "number": 39,
+    "key": "harmbench",
+    "reference": "39. Mazeika, M., et al. HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal. arXiv:2402.04249 (2024).",
+    "urls": [
+      "https://arxiv.org/abs/2402.04249"
+    ]
+  },
+  {
+    "number": 40,
+    "key": "sorry",
+    "reference": "40. Xie, T., et al. SORRY-Bench: Systematically Evaluating Large Language Model Safety Refusal. arXiv:2406.14598 (2024).",
+    "urls": [
+      "https://arxiv.org/abs/2406.14598"
+    ]
+  },
+  {
+    "number": 41,
+    "key": "orbench",
+    "reference": "41. Cui, J.; Chiang, W.-L.; Stoica, I.; Hsieh, C.-J. OR-Bench: An Over-Refusal Benchmark for Large Language Models. arXiv:2405.20947 (2024).",
+    "urls": [
+      "https://arxiv.org/abs/2405.20947"
+    ]
+  },
+  {
+    "number": 42,
+    "key": "arditi",
+    "reference": "42. Arditi, A., et al. Refusal in Language Models Is Mediated by a Single Direction. Advances in Neural Information Processing Systems 37, 136037–136083 (2024).",
+    "urls": [
+      "https://papers.neurips.cc/paper_files/paper/2024/hash/f545448535dfde4f9786555403ab7c49-Abstract-Conference.html"
+    ]
+  },
+  {
+    "number": 43,
+    "key": "confidence",
+    "reference": "43. Kumaran, D.; Daw, N.; Osindero, S.; Veličković, P.; Patraucean, V. Causal evidence that language models use confidence to drive behaviour. Nature Machine Intelligence 8, 1411–1425 (2026).",
+    "urls": [
+      "https://doi.org/10.1038/s42256-026-01293-x"
+    ]
+  },
+  {
+    "number": 44,
+    "key": "openai2024",
+    "reference": "44. OpenAI Building an early warning system for LLM-aided biological threat creation. Technical report, 31 January (2024).",
+    "urls": [
+      "https://openai.com/index/building-an-early-warning-system-for-llm-aided-biological-threat-creation/"
+    ]
+  },
+  {
+    "number": 45,
+    "key": "threshold",
+    "reference": "45. Gupta, R., et al. A Threshold Exceedance Framework for CBRN Uplift Evaluation in Frontier Language Models. arXiv:2607.12200v1, 13 July (2026).",
+    "urls": [
+      "https://arxiv.org/abs/2607.12200v1"
+    ]
+  },
+  {
+    "number": 46,
+    "key": "lakens",
+    "reference": "46. Lakens, D. Sample Size Justification. Collabra: Psychology 8, 33267 (2022).",
+    "urls": [
+      "https://doi.org/10.1525/collabra.33267"
+    ]
+  },
+  {
+    "number": 47,
+    "key": "smilesprompt",
+    "reference": "47. Wong, A.; Cao, H.; Liu, Z.; Li, Y. SMILES-Prompting: A Novel Approach to LLM Jailbreak Attacks in Chemical Synthesis. arXiv:2410.15641v1, 21 October (2024).",
+    "urls": [
+      "https://arxiv.org/abs/2410.15641v1"
+    ]
+  },
+  {
+    "number": 48,
+    "key": "sciguard",
+    "reference": "48. He, J., et al. Controlling Risks of AI in Chemical Science with Agents. arXiv:2312.06632v2, 20 September (2026).",
+    "urls": [
+      "https://arxiv.org/abs/2312.06632v2"
+    ]
+  },
+  {
+    "number": 49,
+    "key": "ragrefuse",
+    "reference": "49. Maskey, U.; Dras, M.; Naseem, U. Steering Over-refusals Towards Safety in Retrieval Augmented Generation. arXiv:2510.10452v1, 12 October (2025).",
+    "urls": [
+      "https://arxiv.org/abs/2510.10452v1"
+    ]
+  },
+  {
+    "number": 50,
+    "key": "fortress",
+    "reference": "50. Knight, C. Q., et al. FORTRESS: Frontier Risk Evaluation for National Security and Public Safety. arXiv:2506.14922v1, 17 June (2025).",
+    "urls": [
+      "https://arxiv.org/abs/2506.14922v1"
+    ]
+  },
+  {
+    "number": 51,
+    "key": "wmdp",
+    "reference": "51. Li, N., et al. The WMDP Benchmark: Measuring and Reducing Malicious Use With Unlearning. arXiv:2403.03218v7, 15 May (2024).",
+    "urls": [
+      "https://arxiv.org/abs/2403.03218v7"
+    ]
+  },
+  {
+    "number": 52,
+    "key": "macbench",
+    "reference": "52. Alampara, N., et al. Probing the limitations of multimodal language models for chemistry and materials research. arXiv:2411.16955v1, 25 November (2024).",
+    "urls": [
+      "https://arxiv.org/abs/2411.16955v1"
+    ]
+  }
+]

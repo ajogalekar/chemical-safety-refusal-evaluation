@@ -1,0 +1,133 @@
+[
+  {
+    "key": "dualchem",
+    "url": "https://cdn.sanity.io/files/50zba0eo/production/740e74ec297aa119d37b87d4706540e322551ba0.pdf",
+    "retrieved_utc": "2026-10-31T23:51:51.509296+00:00",
+    "resolved_url": "https://cdn.sanity.io/files/50zba0eo/production/740e74ec297aa119d37b87d4706540e322551ba0.pdf",
+    "status": "retrieved",
+    "bytes": 3817998,
+    "sha256": "0078a8853e2956595660fb004aca4320430fc3c950962fff2071e533788059ef"
+  },
+  {
+    "key": "sosbench",
+    "url": "https://arxiv.org/pdf/2505.21605v3",
+    "retrieved_utc": "2026-10-31T23:51:51.509702+00:00",
+    "resolved_url": "https://arxiv.org/pdf/2505.21605v3",
+    "status": "retrieved",
+    "bytes": 1126507,
+    "sha256": "b407784bb7167a0a01d044a5f38a43281a969f181513f21b3ac42837518d73df"
+  },
+  {
+    "key": "labsafety",
+    "url": "https://arxiv.org/pdf/2410.14182v4",
+    "retrieved_utc": "2026-10-31T23:51:51.509832+00:00",
+    "resolved_url": "https://arxiv.org/pdf/2410.14182v4",
+    "status": "retrieved",
+    "bytes": 21171907,
+    "sha256": "8010121eb450e792d813362a6f4b9d0cdf12b253994d0a1f106e6d4ce222ac3d"
+  },
+  {
+    "key": "safesci",
+    "url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/zhu26ar/zhu26ar.pdf",
+    "retrieved_utc": "2026-10-31T23:51:51.509983+00:00",
+    "resolved_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/zhu26ar/zhu26ar.pdf",
+    "status": "retrieved",
+    "bytes": 4989251,
+    "sha256": "9a7ef3a555ac060dc31a478133d87bc9c7672c6ff327c28eaffd2ce26b665027"
+  },
+  {
+    "key": "scisafeeval",
+    "url": "https://arxiv.org/pdf/2410.03769",
+    "retrieved_utc": "2026-10-31T23:51:51.510093+00:00",
+    "resolved_url": "https://arxiv.org/pdf/2410.03769",
+    "status": "retrieved",
+    "bytes": 5100067,
+    "sha256": "c12e1cc488fdecfe22c997d92c1bbd55aed81d285f0e54f8affd17477ef231af"
+  },
+  {
+    "key": "wmdp",
+    "url": "https://arxiv.org/pdf/2403.03218",
+    "retrieved_utc": "2026-10-31T23:51:51.510184+00:00",
+    "resolved_url": "https://arxiv.org/pdf/2403.03218",
+    "status": "retrieved",
+    "bytes": 920832,
+    "sha256": "7eaf67dee3b58b308b6fa65d512e59e1b3d6fba9194c483a92267cd9abeef323"
+  },
+  {
+    "key": "chembench",
+    "url": "https://www.nature.com/articles/s41557-025-01815-x.pdf",
+    "retrieved_utc": "2026-10-31T23:51:51.972528+00:00",
+    "resolved_url": "https://www.nature.com/articles/s41557-025-01815-x.pdf?error=cookies_not_supported&code=de79d1dd-2833-493a-a10e-fb0b420a8381",
+    "status": "retrieved",
+    "bytes": 1969949,
+    "sha256": "f288a98bd77920dbd55eff7b5c2a1c5069e2a5eb890996e3a0697af34f2f1ef9"
+  },
+  {
+    "key": "chembench_si",
+    "url": "https://api.repository.cam.ac.uk/server/api/core/bitstreams/978cb035-eec6-41c3-ac78-b70e40c95a9a/content",
+    "retrieved_utc": "2026-10-31T23:51:52.095205+00:00",
+    "status": "failed",
+    "error": "HTTP Error 500: 500"
+  },
+  {
+    "key": "abstention_survey",
+    "url": "https://aclanthology.org/2025.tacl-1.26.pdf",
+    "retrieved_utc": "2026-10-31T23:51:52.230365+00:00",
+    "resolved_url": "https://aclanthology.org/2025.tacl-1.26.pdf",
+    "status": "retrieved",
+    "bytes": 2958001,
+    "sha256": "dd3b988b603367b1d626852c14d2e661ff965d7526aea49218fb0d4ae1b7cdce"
+  },
+  {
+    "key": "wetlab_uplift",
+    "url": "https://arxiv.org/pdf/2602.16703",
+    "retrieved_utc": "2026-10-31T23:51:52.387115+00:00",
+    "resolved_url": "https://arxiv.org/pdf/2602.16703",
+    "status": "retrieved",
+    "bytes": 1431377,
+    "sha256": "18df05b48257500a9aa04bec42aff2a242d5385df6fb590292f359234b5b7761"
+  },
+  {
+    "key": "insilico_uplift",
+    "url": "https://arxiv.org/pdf/2602.23329",
+    "retrieved_utc": "2026-10-31T23:51:52.552814+00:00",
+    "resolved_url": "https://arxiv.org/pdf/2602.23329",
+    "status": "retrieved",
+    "bytes": 1755861,
+    "sha256": "9310896e449e8d081743a7e6c09a987f70afbfc07d380e8576c39bd389e4f429"
+  },
+  {
+    "key": "construct_validity",
+    "url": "https://arxiv.org/pdf/2511.04703",
+    "retrieved_utc": "2026-10-31T23:51:53.412336+00:00",
+    "resolved_url": "https://arxiv.org/pdf/2511.04703",
+    "status": "retrieved",
+    "bytes": 859991,
+    "sha256": "955941e3f27f584eb37f755290ffd6bf9c9db8efd0bd53a5d515c938addc9ced"
+  },
+  {
+    "key": "threshold_uplift",
+    "url": "https://arxiv.org/pdf/2607.12200",
+    "retrieved_utc": "2026-10-31T23:51:53.420785+00:00",
+    "resolved_url": "https://arxiv.org/pdf/2607.12200",
+    "status": "retrieved",
+    "bytes": 453438,
+    "sha256": "7302abc23c7fde7fd46c4e7caf016011fecfd4c244fc409b2d281c833c120655"
+  },
+  {
+    "key": "chemcomp",
+    "url": "https://aclanthology.org/2026.findings-eacl.322.pdf",
+    "retrieved_utc": "2026-10-31T23:51:53.461714+00:00",
+    "resolved_url": "https://aclanthology.org/2026.findings-eacl.322.pdf",
+    "status": "retrieved",
+    "bytes": 6214006,
+    "sha256": "36002b75bd51abd84d30b231382acbc9a0864ee15bfcbb1352d4efef5ab73c1a"
+  },
+  {
+    "key": "anchored_uplift",
+    "url": "https://openreview.net/pdf/174aa2070058a08c155f2744e9782ecd77735a5b.pdf",
+    "retrieved_utc": "2026-10-31T23:51:53.676712+00:00",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

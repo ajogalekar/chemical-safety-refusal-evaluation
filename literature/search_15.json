@@ -1,0 +1,33 @@
+{
+  "original_search_record_sha256": "e947cf1525e41507988394858de1fc8c11eecd465ebc2baee5231ee0a427a3ab",
+  "kind": "Source URLs extracted from saved search results; snippets omitted; not a complete query log",
+  "urls": [
+    "https://arcusx.ai/blog/2026-08-31-abstention.html",
+    "https://arxiv.org/abs/2412.01946",
+    "https://arxiv.org/abs/2506.09038",
+    "https://arxiv.org/abs/2506.13798",
+    "https://arxiv.org/abs/2605.25850",
+    "https://benjaminhan.net/posts/20260523-abstentionbench-unanswerable-questions/",
+    "https://cdn.openai.com/o1-system-card-20240917.pdf",
+    "https://deploymentsafety.openai.com/chatgpt-agent",
+    "https://deploymentsafety.openai.com/deep-research/chemical-and-biological-threat-creation",
+    "https://en.wikipedia.org/wiki/Existential_risk_from_artificial_intelligence",
+    "https://github.com/enached134-ctrl/abstentionbench/blob/main/README.md",
+    "https://oecd.ai/en/incidents/2024-01-31-8c1b",
+    "https://openai.com/index/building-an-early-warning-system-for-llm-aided-biological-threat-creation/",
+    "https://openreview.net/pdf/121b392fd90686210a5fe4367fc8869f52a95ea5.pdf",
+    "https://openreview.net/pdf?id=OkHC30LLpO",
+    "https://openreview.net/pdf?id=kYbojsAOBj",
+    "https://www.alphaxiv.org/abs/2506.09038",
+    "https://www.axios.com/2024/07/10/openai-los-alamos-laboratory-ai-test",
+    "https://www.paperpeel.com/paper/2610.20401",
+    "https://www.paperpeel.com/paper/2610.28340",
+    "https://www.rand.org/content/dam/rand/pubs/research_reports/RRA2900/RRA2977-1/RAND_RRA2977-1.pdf",
+    "https://www.reddit.com/r/LocalLLM/comments/1x8i9pw/academic_history_research_agent_on_16gb_vram/",
+    "https://www.reddit.com/r/LocalLLaMA/comments/1s9sh9a/the_third_party_effect_source_framing_to_reduce/",
+    "https://www.reddit.com/r/OpenAI/comments/1nmu0p4",
+    "https://www.reddit.com/r/singularity/comments/1no5b09",
+    "https://www.researchgate.net/publication/394978704_Answering_the_Unanswerable_Is_to_Err_Knowingly_Analyzing_and_Mitigating_Abstention_Failures_in_Large_Reasoning_Models",
+    "https://www.researchgate.net/publication/403467484_Answering_the_Wrong_Question_Reasoning_Trace_Inversion_for_Abstention_in_LLMs"
+  ]
+}

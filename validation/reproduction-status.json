@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "python": "3.12.14",
+  "analysis_files_compared": [
+    "reanalysis/analysis/algebra_and_precision.json",
+    "reanalysis/analysis/chemid_paired_reanalysis.csv",
+    "reanalysis/analysis/refusalbench_audit.json",
+    "reanalysis/analysis/refusalbench_definitions.csv",
+    "reanalysis/analysis/xstest_annotation_agreement.json",
+    "reanalysis/analysis/xstest_paired_contrasts.json",
+    "reanalysis/analysis/xstest_reproduced_rates.json",
+    "results/dualchem_aggregate_sensitivity.json"
+  ],
+  "documented_metadata_differences": [
+    {
+      "field": "reanalysis/analysis/algebra_and_precision.json/python",
+      "reason": "Recorded Python version varies by environment"
+    },
+    {
+      "field": "reanalysis/analysis/refusalbench_audit.json/bootstraps/0/estimand",
+      "reason": "Corrected repeat-count wording only"
+    },
+    {
+      "field": "reanalysis/analysis/refusalbench_audit.json/bootstraps/1/estimand",
+      "reason": "Corrected repeat-count wording only"
+    },
+    {
+      "field": "reanalysis/analysis/refusalbench_audit.json/bootstraps/2/estimand",
+      "reason": "Corrected repeat-count wording only"
+    }
+  ],
+  "input_hashes_verified": 7,
+  "patagent_smoke_test": "passed",
+  "interpretation": "Computational reproduction and arithmetic/data-integrity checks only. Source labels, causal interpretations, and sampling assumptions are not independently validated."
+}

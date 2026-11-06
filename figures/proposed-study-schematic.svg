@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="760" height="1010" preserveAspectRatio="xMinYMin meet" viewBox="0 0 760 1010" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="760" height="1010"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-1010)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="760" height="1010" style="stroke: none; stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="24" y="983" style="font-family: StudyBold; font-size: 11.5px;fill: rgb(9%,41%,53%); stroke:none;" transform="translate(0,1966) scale(1,-1)">PROPOSED STUDY</text>
+			<text x="24" y="953" style="font-family: StudyBold; font-size: 24px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,1906) scale(1,-1)">Measuring chemical safety and refusal</text>
+			<text x="24" y="930" style="font-family: StudySans; font-size: 13px;fill: rgb(32%,40%,44%); stroke:none;" transform="translate(0,1860) scale(1,-1)">Hold the chemical question fixed. Vary the inputs. Measure each outcome separately.</text>
+			<rect x="24" y="860" width="712" height="54" rx="9" ry="9" style="stroke: none; stroke-linecap: butt; stroke-width: 0.8; fill: rgb(95%,96%,97%); fill-rule: evenodd;"/>
+			<text x="40" y="893" style="font-family: StudyBold; font-size: 12.5px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,1786) scale(1,-1)">Before testing</text>
+			<text x="143" y="893" style="font-family: StudySans; font-size: 12.5px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,1786) scale(1,-1)">Prespecify sampling, outcomes, comparisons and analysis.</text>
+			<text x="40" y="873" style="font-family: StudySans; font-size: 12.5px;fill: rgb(32%,40%,44%); stroke:none;" transform="translate(0,1746) scale(1,-1)">Develop prompts and scoring rules on a separate set of entities.</text>
+			<rect x="24" y="736" width="712" height="108" rx="9" ry="9" style="stroke: rgb(81%,85%,87%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<circle cx="53" cy="823" r="12.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,41%,53%); fill-rule: evenodd;"/>
+			<text x="49.385009765625" y="818" style="font-family: StudyBold; font-size: 13px;fill: rgb(100%,100%,100%); stroke:none;" transform="translate(0,1636) scale(1,-1)">1</text>
+			<text x="75" y="818" style="font-family: StudyBold; font-size: 15px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,1636) scale(1,-1)">Select and verify the chemical questions</text>
+			<text x="40" y="793" style="font-family: StudyBold; font-size: 14px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,1586) scale(1,-1)">60 entities   /   30 prespecified chemical-family blocks   /   1 protective question per entity</text>
+			<text x="40" y="771" style="font-family: StudySans; font-size: 12.5px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,1542) scale(1,-1)">Verify identities, reference answers and required coverage. Document structural and question diversity.</text>
+			<text x="40" y="751" style="font-family: StudySans; font-size: 12.5px;fill: rgb(32%,40%,44%); stroke:none;" transform="translate(0,1502) scale(1,-1)">Include ordinary and hazard-associated mentions; hazard category guides sampling, not refusal labels.</text>
+			<path d="M 380,736 L 380,721 Z" style="stroke: rgb(9%,41%,53%); stroke-linecap: butt; stroke-width: 1.4;"/>
+			<path d="M 277,721 L 638,721 Z" style="stroke: rgb(9%,41%,53%); stroke-linecap: butt; stroke-width: 1.4;"/>
+			<path d="M 277,721 L 277,706 Z" style="stroke: rgb(9%,41%,53%); stroke-linecap: butt; stroke-width: 1.4;"/>
+			<polygon points="277 706, 280 712, 274 712" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,41%,53%); fill-rule: evenodd;"/>
+			<path d="M 638,721 L 638,706 Z" style="stroke: rgb(57%,38%,13%); stroke-linecap: butt; stroke-width: 1.4;"/>
+			<polygon points="638 706, 641 712, 635 712" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(57%,38%,13%); fill-rule: evenodd;"/>
+			<rect x="24" y="472" width="506" height="234" rx="9" ry="9" style="stroke: rgb(81%,85%,87%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<circle cx="53" cy="685" r="12.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,41%,53%); fill-rule: evenodd;"/>
+			<text x="49.385009765625" y="680" style="font-family: StudyBold; font-size: 13px;fill: rgb(100%,100%,100%); stroke:none;" transform="translate(0,1360) scale(1,-1)">2</text>
+			<text x="75" y="680" style="font-family: StudyBold; font-size: 15px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,1360) scale(1,-1)">Vary the inputs</text>
+			<text x="40" y="659" style="font-family: StudySans; font-size: 12.5px;fill: rgb(32%,40%,44%); stroke:none;" transform="translate(0,1318) scale(1,-1)">Same entity and safety question in all six conditions.</text>
+			<text x="40" y="636" style="font-family: StudyBold; font-size: 10.5px;fill: rgb(32%,40%,44%); stroke:none;" transform="translate(0,1272) scale(1,-1)">Initial identifier</text>
+			<text x="156.0009765625" y="636" style="font-family: StudyBold; font-size: 12px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,1272) scale(1,-1)">No help</text>
+			<rect x="112" y="574" width="132" height="47" rx="5" ry="5" style="stroke: none; stroke-linecap: butt; stroke-width: 0.8; fill: rgb(95%,96%,97%); fill-rule: evenodd;"/>
+			<text x="151.54482421875" y="602" style="font-family: StudySans; font-size: 12.2px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,1204) scale(1,-1)">No added</text>
+			<text x="147.824658203125" y="586" style="font-family: StudySans; font-size: 12.2px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,1172) scale(1,-1)">information</text>
+			<rect x="112" y="519" width="132" height="47" rx="5" ry="5" style="stroke: none; stroke-linecap: butt; stroke-width: 0.8; fill: rgb(95%,96%,97%); fill-rule: evenodd;"/>
+			<text x="151.54482421875" y="547" style="font-family: StudySans; font-size: 12.2px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,1094) scale(1,-1)">No added</text>
+			<text x="147.824658203125" y="531" style="font-family: StudySans; font-size: 12.2px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,1062) scale(1,-1)">information</text>
+			<text x="272.6650390625" y="636" style="font-family: StudyBold; font-size: 12px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,1272) scale(1,-1)">Identity bridge</text>
+			<rect x="248" y="574" width="132" height="47" rx="5" ry="5" style="stroke: none; stroke-linecap: butt; stroke-width: 0.8; fill: rgb(90%,94%,96%); fill-rule: evenodd;"/>
+			<text x="268.401904296875" y="602" style="font-family: StudySans; font-size: 12.2px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,1204) scale(1,-1)">Name + SMILES</text>
+			<text x="291.961962890625" y="586" style="font-family: StudySans; font-size: 12.2px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,1172) scale(1,-1)">link only</text>
+			<rect x="248" y="519" width="132" height="47" rx="5" ry="5" style="stroke: none; stroke-linecap: butt; stroke-width: 0.8; fill: rgb(90%,94%,96%); fill-rule: evenodd;"/>
+			<text x="268.401904296875" y="547" style="font-family: StudySans; font-size: 12.2px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,1094) scale(1,-1)">Name + SMILES</text>
+			<text x="291.961962890625" y="531" style="font-family: StudySans; font-size: 12.2px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,1062) scale(1,-1)">link only</text>
+			<text x="410.1533203125" y="636" style="font-family: StudyBold; font-size: 12px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,1272) scale(1,-1)">Bridge + facts</text>
+			<rect x="384" y="574" width="132" height="47" rx="5" ry="5" style="stroke: none; stroke-linecap: butt; stroke-width: 0.8; fill: rgb(90%,94%,93%); fill-rule: evenodd;"/>
+			<text x="412.193701171875" y="602" style="font-family: StudySans; font-size: 12.2px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,1204) scale(1,-1)">Link + verified</text>
+			<text x="419.14853515625" y="586" style="font-family: StudySans; font-size: 12.2px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,1172) scale(1,-1)">safety facts</text>
+			<rect x="384" y="519" width="132" height="47" rx="5" ry="5" style="stroke: none; stroke-linecap: butt; stroke-width: 0.8; fill: rgb(90%,94%,93%); fill-rule: evenodd;"/>
+			<text x="412.193701171875" y="547" style="font-family: StudySans; font-size: 12.2px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,1094) scale(1,-1)">Link + verified</text>
+			<text x="419.14853515625" y="531" style="font-family: StudySans; font-size: 12.2px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,1062) scale(1,-1)">safety facts</text>
+			<text x="40" y="592" style="font-family: StudyBold; font-size: 13px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,1184) scale(1,-1)">Name</text>
+			<text x="40" y="537" style="font-family: StudyBold; font-size: 13px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,1074) scale(1,-1)">SMILES</text>
+			<text x="40" y="491" style="font-family: StudySans; font-size: 11.8px;fill: rgb(32%,40%,44%); stroke:none;" transform="translate(0,982) scale(1,-1)">The bridge supplies the identifier pair, without the requested safety fact.</text>
+			<rect x="548" y="472" width="188" height="234" rx="9" ry="9" style="stroke: rgb(89%,83%,74%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(98%,96%,91%); fill-rule: evenodd;"/>
+			<text x="564" y="685" style="font-family: StudyBold; font-size: 10.5px;fill: rgb(57%,38%,13%); stroke:none;" transform="translate(0,1370) scale(1,-1)">SECONDARY MEASURE</text>
+			<text x="564" y="661" style="font-family: StudyBold; font-size: 15px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,1322) scale(1,-1)">Test recognition</text>
+			<text x="564" y="640" style="font-family: StudySans; font-size: 11.8px;fill: rgb(32%,40%,44%); stroke:none;" transform="translate(0,1280) scale(1,-1)">Separate fresh sessions</text>
+			<text x="564" y="612" style="font-family: StudySans; font-size: 13px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,1224) scale(1,-1)">60 entities</text>
+			<text x="564" y="594" style="font-family: StudySans; font-size: 13px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,1188) scale(1,-1)">× 2 identifiers</text>
+			<text x="564" y="576" style="font-family: StudySans; font-size: 13px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,1152) scale(1,-1)">× 2 model snapshots</text>
+			<text x="564" y="555" style="font-family: StudyBold; font-size: 16px;fill: rgb(57%,38%,13%); stroke:none;" transform="translate(0,1110) scale(1,-1)">240 probe calls</text>
+			<text x="564" y="530" style="font-family: StudySans; font-size: 12px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,1060) scale(1,-1)">No probe or answer is</text>
+			<text x="564" y="514" style="font-family: StudySans; font-size: 12px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,1028) scale(1,-1)">passed to the main task.</text>
+			<text x="564" y="492" style="font-family: StudySans; font-size: 11.4px;fill: rgb(32%,40%,44%); stroke:none;" transform="translate(0,984) scale(1,-1)">Recognition does not</text>
+			<text x="564" y="478" style="font-family: StudySans; font-size: 11.4px;fill: rgb(32%,40%,44%); stroke:none;" transform="translate(0,956) scale(1,-1)">select the main sample.</text>
+			<path d="M 277,472 L 277,452 Z" style="stroke: rgb(9%,41%,53%); stroke-linecap: butt; stroke-width: 1.4;"/>
+			<polygon points="277 452, 280 458, 274 458" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,41%,53%); fill-rule: evenodd;"/>
+			<rect x="24" y="340" width="506" height="112" rx="9" ry="9" style="stroke: rgb(81%,85%,87%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<circle cx="53" cy="431" r="12.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,41%,53%); fill-rule: evenodd;"/>
+			<text x="49.385009765625" y="426" style="font-family: StudyBold; font-size: 13px;fill: rgb(100%,100%,100%); stroke:none;" transform="translate(0,852) scale(1,-1)">3</text>
+			<text x="75" y="426" style="font-family: StudyBold; font-size: 15px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,852) scale(1,-1)">Run each condition</text>
+			<text x="447.94287109375" y="426" style="font-family: StudyBold; font-size: 13px;fill: rgb(9%,41%,53%); stroke:none;" transform="translate(0,852) scale(1,-1)">1,440 calls</text>
+			<text x="40" y="404" style="font-family: StudyBold; font-size: 12.7px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,808) scale(1,-1)">2 fixed model snapshots × 2 generations per condition</text>
+			<text x="40" y="385" style="font-family: StudySans; font-size: 12px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,770) scale(1,-1)">Fresh sessions; randomized order; fixed reasoning and decoding settings.</text>
+			<text x="40" y="367" style="font-family: StudySans; font-size: 12px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,734) scale(1,-1)">Equal output budgets and tool access.</text>
+			<text x="40" y="350" style="font-family: StudySans; font-size: 11.8px;fill: rgb(32%,40%,44%); stroke:none;" transform="translate(0,700) scale(1,-1)">Baselines: identifier lookup · fact retrieval · abstain-all.</text>
+			<rect x="548" y="340" width="188" height="112" rx="9" ry="9" style="stroke: none; stroke-linecap: butt; stroke-width: 0.8; fill: rgb(95%,96%,97%); fill-rule: evenodd;"/>
+			<text x="564" y="418" style="font-family: StudyBold; font-size: 28px;fill: rgb(9%,41%,53%); stroke:none;" transform="translate(0,836) scale(1,-1)">1,680</text>
+			<text x="564" y="399" style="font-family: StudySans; font-size: 12px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,798) scale(1,-1)">planned model calls</text>
+			<text x="564" y="376" style="font-family: StudySans; font-size: 12px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,752) scale(1,-1)">1,440 main + 240 probes</text>
+			<text x="564" y="355" style="font-family: StudySans; font-size: 11.5px;fill: rgb(32%,40%,44%); stroke:none;" transform="translate(0,710) scale(1,-1)">Design only; no results.</text>
+			<path d="M 277,340 L 277,312 Z" style="stroke: rgb(9%,41%,53%); stroke-linecap: butt; stroke-width: 1.4;"/>
+			<polygon points="277 312, 280 318, 274 318" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,41%,53%); fill-rule: evenodd;"/>
+			<rect x="24" y="184" width="712" height="128" rx="9" ry="9" style="stroke: rgb(81%,85%,87%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<circle cx="53" cy="291" r="12.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,41%,53%); fill-rule: evenodd;"/>
+			<text x="49.385009765625" y="286" style="font-family: StudyBold; font-size: 13px;fill: rgb(100%,100%,100%); stroke:none;" transform="translate(0,572) scale(1,-1)">4</text>
+			<text x="75" y="286" style="font-family: StudyBold; font-size: 15px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,572) scale(1,-1)">Record and score every initiated task</text>
+			<text x="40" y="260" style="font-family: StudyBold; font-size: 12.7px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,520) scale(1,-1)">Refusal</text>
+			<text x="40" y="241" style="font-family: StudySans; font-size: 11.9px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,482) scale(1,-1)">What was withheld,</text>
+			<text x="40" y="225" style="font-family: StudySans; font-size: 11.9px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,450) scale(1,-1)">stated reason, uncertainty</text>
+			<text x="213" y="260" style="font-family: StudyBold; font-size: 12.7px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,520) scale(1,-1)">Answer quality</text>
+			<text x="213" y="241" style="font-family: StudySans; font-size: 11.9px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,482) scale(1,-1)">Attempt, correctness,</text>
+			<text x="213" y="225" style="font-family: StudySans; font-size: 11.9px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,450) scale(1,-1)">required coverage</text>
+			<text x="386" y="260" style="font-family: StudyBold; font-size: 12.7px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,520) scale(1,-1)">Appropriateness</text>
+			<text x="386" y="241" style="font-family: StudySans; font-size: 11.9px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,482) scale(1,-1)">Policy-based judgment;</text>
+			<text x="386" y="225" style="font-family: StudySans; font-size: 11.9px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,450) scale(1,-1)">mixed or unclear cases</text>
+			<text x="559" y="260" style="font-family: StudyBold; font-size: 12.7px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,520) scale(1,-1)">Technical status</text>
+			<text x="559" y="241" style="font-family: StudySans; font-size: 11.9px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,482) scale(1,-1)">Missing outputs, blocks,</text>
+			<text x="559" y="225" style="font-family: StudySans; font-size: 11.9px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,450) scale(1,-1)">parsing and tool failures</text>
+			<path d="M 201,270 L 201,218 Z" style="stroke: rgb(81%,85%,87%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 374,270 L 374,218 Z" style="stroke: rgb(81%,85%,87%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 547,270 L 547,218 Z" style="stroke: rgb(81%,85%,87%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="40" y="198" style="font-family: StudySans; font-size: 12px;fill: rgb(32%,40%,44%); stroke:none;" transform="translate(0,396) scale(1,-1)">Two human raters; agreement before adjudication. A technical failure is recorded separately from refusal.</text>
+			<path d="M 380,184 L 380,158 Z" style="stroke: rgb(9%,41%,53%); stroke-linecap: butt; stroke-width: 1.4;"/>
+			<polygon points="380 158, 383 164, 377 164" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,41%,53%); fill-rule: evenodd;"/>
+			<rect x="24" y="34" width="712" height="124" rx="9" ry="9" style="stroke: rgb(81%,85%,87%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<circle cx="53" cy="137" r="12.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,41%,53%); fill-rule: evenodd;"/>
+			<text x="49.385009765625" y="132" style="font-family: StudyBold; font-size: 13px;fill: rgb(100%,100%,100%); stroke:none;" transform="translate(0,264) scale(1,-1)">5</text>
+			<text x="75" y="132" style="font-family: StudyBold; font-size: 15px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,264) scale(1,-1)">Compare conditions and estimate uncertainty</text>
+			<text x="40" y="108" style="font-family: StudySans; font-size: 12.4px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,216) scale(1,-1)">Identifier: name vs SMILES, without help.</text>
+			<text x="40" y="89" style="font-family: StudySans; font-size: 12.4px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,178) scale(1,-1)">Bridge: linked pair vs no help.</text>
+			<text x="40" y="70" style="font-family: StudySans; font-size: 12.4px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,140) scale(1,-1)">Facts: bridge + facts vs bridge alone.</text>
+			<path d="M 378,118 L 378,63 Z" style="stroke: rgb(81%,85%,87%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="394" y="108" style="font-family: StudySans; font-size: 11.6px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,216) scale(1,-1)">Average repeats; pair conditions within each entity.</text>
+			<text x="394" y="93" style="font-family: StudySans; font-size: 11.6px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,186) scale(1,-1)">Report bridge and fact effects by initial identifier.</text>
+			<text x="394" y="78" style="font-family: StudySans; font-size: 11.6px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,156) scale(1,-1)">Resample family blocks; prespecify Holm adjustment.</text>
+			<text x="394" y="63" style="font-family: StudySans; font-size: 11.6px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,126) scale(1,-1)">Report all-task success and attempted-answer accuracy.</text>
+			<text x="40" y="46" style="font-family: StudySans; font-size: 11.7px;fill: rgb(32%,40%,44%); stroke:none;" transform="translate(0,92) scale(1,-1)">These contrasts estimate input effects; they do not uniquely identify the internal cause of a refusal.</text>
+			<text x="24" y="14" style="font-family: StudySans; font-size: 11.8px;fill: rgb(32%,40%,44%); stroke:none;" transform="translate(0,28) scale(1,-1)">Scope: legitimate safety questions. Unsafe compliance and experimental execution need separate studies.</text>
+		</g>
+	</g>
+</svg>

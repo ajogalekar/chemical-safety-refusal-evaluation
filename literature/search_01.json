@@ -1,0 +1,30 @@
+{
+  "original_search_record_sha256": "8b1c39f3b3a96a5cb45b740fac300e70fc227696b9a61641e186afbd818c5600",
+  "kind": "Source URLs extracted from saved search results; snippets omitted; not a complete query log",
+  "urls": [
+    "https://aclanthology.org/2026.findings-acl.1118.pdf",
+    "https://airiskmonitor.net/doc/en/report/2025%20Q3",
+    "https://api.repository.cam.ac.uk/server/api/core/bitstreams/978cb035-eec6-41c3-ac78-b70e40c95a9a/content",
+    "https://arxiv.org/abs/2410.14182",
+    "https://arxiv.org/abs/2604.15717",
+    "https://arxiv.org/abs/2606.12429",
+    "https://arxiv.org/abs/2608.02595",
+    "https://arxivlens.com/paperview/details/labsafety-bench-benchmarking-llms-on-safety-issues-in-scientific-labs-1636-2e7db7aa",
+    "https://blindrefusal.mintresearch.org/",
+    "https://doi.org/10.1038/s41557-025-01815-x",
+    "https://github.com/HaochenZhao/SafeAgent4Chem",
+    "https://github.com/jang1563/llm-sfm-safety-eval",
+    "https://github.com/turbobeest/modelspec/blob/main/benchmarks/sosbench.md",
+    "https://huggingface.co/datasets/zzha6204/Health-ORSC-Bench",
+    "https://hunterheidenreich.com/notes/chemistry/llm-applications/chemsafetybench-llm-safety-chemistry/",
+    "https://openreview.net/pdf/5820074f4291621b151655a0b6b94912e51a2eb0.pdf",
+    "https://pith.science/paper/2411.16736",
+    "https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks",
+    "https://securebio.org/benchmarks/details/",
+    "https://shoepaly.app/?_=%2Fpdf%2F2606.12429%23hKr38k1yZITo%2FkpxGBdjJos%3D",
+    "https://www.atlas-data.ai/eval/resource/chembench",
+    "https://www.deai.org/refusals",
+    "https://www.nature.com/articles/s41557-025-01815-x.pdf",
+    "https://www.nature.com/articles/s43588-025-00836-3.pdf"
+  ]
+}

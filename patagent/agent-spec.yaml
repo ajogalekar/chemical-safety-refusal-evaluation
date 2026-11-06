@@ -1,0 +1,50 @@
+schema_version: "1.0"
+agent:
+  name: "pat-agent"
+  display_name: "PatAgent"
+  domain: "cheminformatics and molecular-modeling pipeline validation"
+  status: "wrapper-recommended"
+  confidence: "high"
+  summary: "Evidence-linked, Pat Walters-inspired review gates and full-blog retrieval for reproducible molecular modeling and cheminformatics pipelines."
+  aliases: ["patagent", "model-skeptic", "cheminformatics-reviewer", "molecular-modeling-auditor"]
+source:
+  type: "wrapper"
+  name: "Local PatAgent evidence, retrieval, and pipeline audit wrapper"
+  url: "https://github.com/modelcontextprotocol/python-sdk"
+upstream:
+  name: "Practical Cheminformatics public blog plus Pat Walters publication metadata and open-source materials"
+  url: "https://patwalters.github.io/Practical-Cheminformatics-Index/"
+mcp:
+  transport: "stdio"
+  url: ""
+  command: "/usr/bin/env"
+  args: ["python3", "patagent/server.py"]
+  env: {}
+  install:
+    - "Core audit, retrieval, and smoke-test commands use only the Python standard library; no GPU, Docker, model weights, paid API, or private credentials are required."
+    - "Run sync-corpus once to build the local retrieval index. It pages through all 74 archived Blogger posts and all 16 current GitHub Pages posts verified on 2026-08-06, and automatically includes later posts."
+    - "Corpus refresh uses public Blogger and GitHub APIs. No authentication is required at normal public rates; GITHUB_TOKEN is optional for higher GitHub rate limits."
+    - "The wrapper stores only a local retrieval cache and never downloads paywalled publication full text."
+capabilities:
+  - "run mandatory preflight, in-flight, and postflight review gates for cheminformatics, ML, QSAR, ADMET, docking, virtual screening, co-folding, generative design, molecular dynamics, and molecular-modeling pipelines"
+  - "sync and search the complete public Practical Cheminformatics blog across the archived Blogger feed and current GitHub Pages repository"
+  - "preserve authorship attribution and distinguish Pat-authored posts, coauthored papers, guest posts, and PatAgent inferences"
+  - "audit chemical structures, representations, stereochemistry, tautomers, duplicates, endpoints, assay artifacts, provenance, units, dynamic range, and experimental error"
+  - "audit train, validation, and test separation for duplicate, analogue, scaffold, temporal, target, pocket, ligand, assay, and benchmark leakage"
+  - "compare against simple and null baselines; report distributions, effect sizes, uncertainty intervals, practical significance, and multiplicity-aware statistical tests"
+  - "evaluate applicability domain, train-test chemical-space similarity, extrapolation, subgroup failure modes, and prospective or blind validation"
+  - "review docking and co-folding with pose validity, ranked-versus-oracle performance, training-set similarity, allosteric cases, and orthogonal experimental evidence"
+  - "review generative chemistry for validity, uniqueness, novelty relative to training data, synthesizability, artifacts, multi-objective tradeoffs, and experimental confirmation"
+  - "emit machine-readable gate reports with pass, fail, or unresolved status, stable source citations, and remediation steps"
+smoke_tests:
+  - "Run python3 patagent/server.py smoke-test and require ok=true plus all deliberately flawed fixtures to be detected."
+  - "Run python3 patagent/server.py sync-corpus and require the manifest source counts to be at least 74 Blogger and 16 GitHub Pages posts."
+  - "Search the synced corpus for dataset splitting, multiple comparisons, co-folding, and generative design; require attributed results with canonical URLs."
+safety:
+  - "PatAgent is not Pat Walters, is not endorsed by him, does not impersonate him, and must describe itself as an independent evidence-linked reviewer inspired by public writings."
+  - "Do not claim PatAgent has learned Pat's complete judgment; say it retrieves and operationalizes recommendations from the cited corpus."
+  - "Never reproduce paywalled or copyrighted full text; store bibliographic metadata, short compliant snippets, derived checklists, and links unless content is openly licensed or user-provided."
+  - "Separate Pat-authored statements from coauthored papers, guest posts, and PatAgent inferences; include source URLs and dates for substantive recommendations."
+  - "Do not let an agent persona override project evidence, domain expertise, experimental validation, or newer contradictory literature."
+  - "Treat predictions and rankings as hypotheses; never present computational outputs as experimental facts."
+  - "Block decision-critical model promotion when leakage, test-set tuning, invalid structures, missing provenance, absent relevant baselines, or unresolved applicability-domain failures remain."

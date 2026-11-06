@@ -1,0 +1,36 @@
+[
+  {
+    "key": "tooling",
+    "url": "https://arxiv.org/pdf/2411.07228",
+    "retrieved_utc": "2026-10-31T23:53:47.148280+00:00",
+    "resolved_url": "https://arxiv.org/pdf/2411.07228",
+    "status": "retrieved",
+    "bytes": 729757,
+    "sha256": "6d69040be09ef20b585ed8deab5d06dda14b597fead9705668c5e93293607081"
+  },
+  {
+    "key": "coscientist",
+    "url": "https://www.nature.com/articles/s41586-023-06792-0.pdf",
+    "retrieved_utc": "2026-10-31T23:53:47.148662+00:00",
+    "resolved_url": "https://www.nature.com/articles/s41586-023-06792-0.pdf?error=cookies_not_supported&code=793c1766-e218-44b1-a1d1-a4e44f6ea738",
+    "status": "retrieved",
+    "bytes": 8869905,
+    "sha256": "09cfaa1ccf4c951eebc347bab909e1e495d6701be38d3808c38016dff35dbd4e"
+  },
+  {
+    "key": "chembench_si_retry",
+    "url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41557-025-01815-x/MediaObjects/41557_2025_1815_MOESM1_ESM.pdf",
+    "retrieved_utc": "2026-10-31T23:53:47.148787+00:00",
+    "status": "failed",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "key": "confidence",
+    "url": "https://www.nature.com/articles/s42256-026-01293-x.pdf",
+    "retrieved_utc": "2026-10-31T23:53:47.148902+00:00",
+    "resolved_url": "https://www.nature.com/articles/s42256-026-01293-x.pdf?error=cookies_not_supported&code=9c16c223-2f80-4dfe-8c4f-d77ed11c942e",
+    "status": "retrieved",
+    "bytes": 6418433,
+    "sha256": "492fc4414c7c9da5a2081dbe3a3f0d95ba4f2d12910a312bfb04eed59a974eff"
+  }
+]

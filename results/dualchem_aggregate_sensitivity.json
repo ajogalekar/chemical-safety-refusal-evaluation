@@ -1,0 +1,29 @@
+{
+  "source": "DualChem official PDF, retrieved 2026-10-31; sections 5.1, 6.1 and Table 4 footnote",
+  "human_question_paired": {
+    "n_questions": 600,
+    "discordant_assisted_only": 160,
+    "discordant_control_only": 64,
+    "difference_pp": 16.0,
+    "exact_two_sided_mcnemar_p": 1.1417744367002864e-10,
+    "paired_normal95_pp": [
+      11.277653591446182,
+      20.72234640855382
+    ],
+    "limitation": "Question-only inference; participant assignment not randomized. Repeated participant dependence and selection cannot be addressed from these aggregates. Not a causal human-uplift estimate."
+  },
+  "web_search_denominator": {
+    "initiated": 600,
+    "no_final_answer": 175,
+    "completed": 425,
+    "published_completed_accuracy_percent": 54.6,
+    "published_no_tool_all_item_accuracy_percent": 52.3,
+    "all_initiated_accuracy_percent_approx": 38.675,
+    "difference_all_initiated_minus_no_tool_pp_approx": -13.625,
+    "rounding_interval_all_initiated_percent": [
+      38.639583333333334,
+      38.71041666666667
+    ],
+    "interpretation": "Arithmetic from rounded published percent. Failure counted as not successfully answered. No raw correct count inferred; no CI or paired test for the tool contrast. Changes estimand, not correction of a hidden arithmetic error."
+  }
+}

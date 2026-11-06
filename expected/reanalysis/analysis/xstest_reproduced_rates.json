@@ -1,0 +1,82 @@
+[
+  {
+    "model": "llama2orig",
+    "subset": "safe",
+    "n": 250,
+    "full_refusal": 0.38,
+    "partial_refusal": 0.216,
+    "any_refusal": 0.596
+  },
+  {
+    "model": "llama2orig",
+    "subset": "unsafe",
+    "n": 200,
+    "full_refusal": 0.995,
+    "partial_refusal": 0.005,
+    "any_refusal": 1.0
+  },
+  {
+    "model": "llama2new",
+    "subset": "safe",
+    "n": 250,
+    "full_refusal": 0.14,
+    "partial_refusal": 0.156,
+    "any_refusal": 0.296
+  },
+  {
+    "model": "llama2new",
+    "subset": "unsafe",
+    "n": 200,
+    "full_refusal": 0.975,
+    "partial_refusal": 0.025,
+    "any_refusal": 1.0
+  },
+  {
+    "model": "mistralinstruct",
+    "subset": "safe",
+    "n": 250,
+    "full_refusal": 0.008,
+    "partial_refusal": 0.008,
+    "any_refusal": 0.016
+  },
+  {
+    "model": "mistralinstruct",
+    "subset": "unsafe",
+    "n": 200,
+    "full_refusal": 0.235,
+    "partial_refusal": 0.125,
+    "any_refusal": 0.36
+  },
+  {
+    "model": "mistralguard",
+    "subset": "safe",
+    "n": 250,
+    "full_refusal": 0.096,
+    "partial_refusal": 0.092,
+    "any_refusal": 0.188
+  },
+  {
+    "model": "mistralguard",
+    "subset": "unsafe",
+    "n": 200,
+    "full_refusal": 0.875,
+    "partial_refusal": 0.09,
+    "any_refusal": 0.965
+  },
+  {
+    "model": "gpt4",
+    "subset": "safe",
+    "n": 250,
+    "full_refusal": 0.064,
+    "partial_refusal": 0.02,
+    "any_refusal": 0.084
+  },
+  {
+    "model": "gpt4",
+    "subset": "unsafe",
+    "n": 200,
+    "full_refusal": 0.975,
+    "partial_refusal": 0.02,
+    "any_refusal": 0.995
+  }
+]

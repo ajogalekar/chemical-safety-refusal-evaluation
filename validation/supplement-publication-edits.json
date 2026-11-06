@@ -1,0 +1,22 @@
+[
+  [
+    "The eight-paper review, source locators, and private editorial ranking are in `audit-record/REPORT.md`. That ranking is not a validated scale, excludes contextual references, and is not part of the proposed public manuscript.",
+    "The public claim-level synthesis and source locators are in Section S2 and `literature/claim_ledger.csv`; review depth and paper versions are recorded in `literature/study_inventory.csv`. Private editorial rankings are not part of this manuscript or its public archive."
+  ],
+  [
+    "Search batches are saved in `literature/search_*.json`.",
+    "Source URLs from saved search batches are in `literature/search_*.json`; cached search-result prose is not redistributed."
+  ],
+  [
+    "Before submission, a second human reader should search independently for competing chemistry frameworks and inspect papers citing the main studies. That coverage check remains outstanding.",
+    "The coverage check was not an independent systematic search by a second human reader."
+  ],
+  [
+    "The package includes the postflight output.",
+    "The package includes the postflight output at `patagent/manuscript-postflight.json`."
+  ],
+  [
+    "Before submission, human reviewers must verify extracted numbers and source locators, resolve disputed interpretations, refresh the literature search, complete author declarations, and check redistribution permissions. The manuscript and analysis package are available for that review; it has not yet occurred.",
+    "AI assistance in extraction, analysis design, coding, figure preparation, writing, and revision is declared in the manuscript and documented in `AI_USE.md`. Computational checks reproduce calculations conditional on the released labels and the stated assumptions. They do not constitute independent expert validation of the source labels or interpretations. The author is responsible for the submitted work."
+  ]
+]

@@ -1,0 +1,137 @@
+[
+  {
+    "file": "literature/abstention_survey.txt",
+    "extracted_arxiv_header": null,
+    "pdf_sha256": "dd3b988b603367b1d626852c14d2e661ff965d7526aea49218fb0d4ae1b7cdce"
+  },
+  {
+    "file": "literature/arditi.txt",
+    "extracted_arxiv_header": null,
+    "pdf_sha256": "00b84fce7160c8cec3ad5c02dd434292ec386e4b97a5d0e53c03fa40a0854cc6"
+  },
+  {
+    "file": "literature/chembench.txt",
+    "extracted_arxiv_header": null,
+    "pdf_sha256": "f288a98bd77920dbd55eff7b5c2a1c5069e2a5eb890996e3a0697af34f2f1ef9"
+  },
+  {
+    "file": "literature/chemcomp.txt",
+    "extracted_arxiv_header": null,
+    "pdf_sha256": "36002b75bd51abd84d30b231382acbc9a0864ee15bfcbb1352d4efef5ab73c1a"
+  },
+  {
+    "file": "literature/chemreason.txt",
+    "extracted_arxiv_header": null,
+    "pdf_sha256": "80b2d3329ffc0dac72b1452fe45890f5882846470d90f0a8887ff6ee2ea1a18b"
+  },
+  {
+    "file": "literature/chemref.txt",
+    "extracted_arxiv_header": "arXiv:2511.10027v2 [cs.AI] 14 Nov 2025",
+    "pdf_sha256": "4cb202edab38264a5662adcb0ba5a8c246972856837cd3828928cfcc35e5bba3"
+  },
+  {
+    "file": "literature/confidence.txt",
+    "extracted_arxiv_header": null,
+    "pdf_sha256": "492fc4414c7c9da5a2081dbe3a3f0d95ba4f2d12910a312bfb04eed59a974eff"
+  },
+  {
+    "file": "literature/construct_validity.txt",
+    "extracted_arxiv_header": "arXiv:2511.04703v1 [cs.CL] 3 Nov 2025",
+    "pdf_sha256": "955941e3f27f584eb37f755290ffd6bf9c9db8efd0bd53a5d515c938addc9ced"
+  },
+  {
+    "file": "literature/coscientist.txt",
+    "extracted_arxiv_header": null,
+    "pdf_sha256": "09cfaa1ccf4c951eebc347bab909e1e495d6701be38d3808c38016dff35dbd4e"
+  },
+  {
+    "file": "literature/dualchem.txt",
+    "extracted_arxiv_header": null,
+    "pdf_sha256": "0078a8853e2956595660fb004aca4320430fc3c950962fff2071e533788059ef"
+  },
+  {
+    "file": "literature/harmbench.txt",
+    "extracted_arxiv_header": "arXiv:2402.04249v2 [cs.LG] 27 Feb 2024",
+    "pdf_sha256": "e6cbcbedbef6aebea3b6fc6c8fd7933546b26cf0a1e65bcf128eea235007c732"
+  },
+  {
+    "file": "literature/insilico_uplift.txt",
+    "extracted_arxiv_header": "arXiv:2602.23329v2 [cs.AI] 13 Mar 2026",
+    "pdf_sha256": "9310896e449e8d081743a7e6c09a987f70afbfc07d380e8576c39bd389e4f429"
+  },
+  {
+    "file": "literature/labsafety.txt",
+    "extracted_arxiv_header": "arXiv:2410.14182v4 [cs.CL] 12 Feb 2026",
+    "pdf_sha256": "8010121eb450e792d813362a6f4b9d0cdf12b253994d0a1f106e6d4ce222ac3d"
+  },
+  {
+    "file": "literature/labshield.txt",
+    "extracted_arxiv_header": "arXiv:2603.11987v1 [cs.AI] 12 Mar 2026",
+    "pdf_sha256": "4f8356e6a3f581d4182f467477f680d50421c35f0bfd79dec664cf87d0300773"
+  },
+  {
+    "file": "literature/molrep.txt",
+    "extracted_arxiv_header": null,
+    "pdf_sha256": "5326d7497be38118e892da27d05dbfdfd446b8830ff3f0ad3de3d5f47a5543c3"
+  },
+  {
+    "file": "literature/orbench.txt",
+    "extracted_arxiv_header": "arXiv:2405.20947v5 [cs.CL] 15 Jun 2025",
+    "pdf_sha256": "1a4c7b60301abcad795fc63ac88bc04534f46cfd707f8ad2824993a87d402792"
+  },
+  {
+    "file": "literature/safesci.txt",
+    "extracted_arxiv_header": null,
+    "pdf_sha256": "9a7ef3a555ac060dc31a478133d87bc9c7672c6ff327c28eaffd2ce26b665027"
+  },
+  {
+    "file": "literature/sciknoweval.txt",
+    "extracted_arxiv_header": "arXiv:2406.09098v2 [cs.CL] 22 Sep 2024",
+    "pdf_sha256": "e5ae032ffad005d612f75ceb9dc18a6bb83e7ff6347ab1ec7680d369975a1769"
+  },
+  {
+    "file": "literature/scisafeeval.txt",
+    "extracted_arxiv_header": "arXiv:2410.03769v2 [cs.CL] 16 Dec 2024",
+    "pdf_sha256": "c12e1cc488fdecfe22c997d92c1bbd55aed81d285f0e54f8affd17477ef231af"
+  },
+  {
+    "file": "literature/sorrybench.txt",
+    "extracted_arxiv_header": "arXiv:2406.14598v2 [cs.AI] 1 Mar 2025",
+    "pdf_sha256": "643f5f6a2eddf475777f51503b18c8ecc96618f7242f2bbf8bb52c08e35a6e88"
+  },
+  {
+    "file": "literature/sosbench.txt",
+    "extracted_arxiv_header": "arXiv:2505.21605v3 [cs.LG] 5 Apr 2026",
+    "pdf_sha256": "b407784bb7167a0a01d044a5f38a43281a969f181513f21b3ac42837518d73df"
+  },
+  {
+    "file": "literature/stream.txt",
+    "extracted_arxiv_header": "arXiv:2508.09853v2 [cs.CY] 3 Sep 2025",
+    "pdf_sha256": "15bc30f58d6609b4efc0cf055164c2612edecaa847642c7261f36bc6fba2617b"
+  },
+  {
+    "file": "literature/strongreject.txt",
+    "extracted_arxiv_header": "arXiv:2402.10260v2 [cs.LG] 27 Aug 2024",
+    "pdf_sha256": "10caab98ed5a75b019ef3c8a6697527f83edda067516996d2cb612f02ff746bc"
+  },
+  {
+    "file": "literature/threshold_uplift.txt",
+    "extracted_arxiv_header": "arXiv:2607.12200v1 [cs.AI] 13 Jul 2026",
+    "pdf_sha256": "7302abc23c7fde7fd46c4e7caf016011fecfd4c244fc409b2d281c833c120655"
+  },
+  {
+    "file": "literature/tooling.txt",
+    "extracted_arxiv_header": "arXiv:2411.07228v3 [cs.AI] 26 May 2025",
+    "pdf_sha256": "6d69040be09ef20b585ed8deab5d06dda14b597fead9705668c5e93293607081"
+  },
+  {
+    "file": "literature/wetlab_uplift.txt",
+    "extracted_arxiv_header": null,
+    "pdf_sha256": "18df05b48257500a9aa04bec42aff2a242d5385df6fb590292f359234b5b7761"
+  },
+  {
+    "file": "literature/wmdp.txt",
+    "extracted_arxiv_header": "arXiv:2403.03218v7 [cs.LG] 15 May 2024",
+    "pdf_sha256": "7eaf67dee3b58b308b6fa65d512e59e1b3d6fba9194c483a92267cd9abeef323"
+  }
+]

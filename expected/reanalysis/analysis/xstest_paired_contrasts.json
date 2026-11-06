@@ -1,0 +1,67 @@
+{
+  "results": [
+    {
+      "before": "llama2orig",
+      "after": "llama2new",
+      "outcome": "full_refusal",
+      "n": 250,
+      "n10": 3,
+      "n01": 63,
+      "difference": -0.24,
+      "exact_mcnemar_p": 1.3002836654618655e-15,
+      "stratified_prompt_bootstrap95": [
+        -0.296,
+        -0.188
+      ],
+      "holm4_p": 3.9008509963855964e-15
+    },
+    {
+      "before": "llama2orig",
+      "after": "llama2new",
+      "outcome": "any_refusal",
+      "n": 250,
+      "n10": 5,
+      "n01": 80,
+      "difference": -0.3,
+      "exact_mcnemar_p": 1.8057729139211306e-18,
+      "stratified_prompt_bootstrap95": [
+        -0.36,
+        -0.244
+      ],
+      "holm4_p": 7.223091655684522e-18
+    },
+    {
+      "before": "mistralinstruct",
+      "after": "mistralguard",
+      "outcome": "full_refusal",
+      "n": 250,
+      "n10": 22,
+      "n01": 0,
+      "difference": 0.088,
+      "exact_mcnemar_p": 4.76837158203125e-07,
+      "stratified_prompt_bootstrap95": [
+        0.056,
+        0.124
+      ],
+      "holm4_p": 4.76837158203125e-07
+    },
+    {
+      "before": "mistralinstruct",
+      "after": "mistralguard",
+      "outcome": "any_refusal",
+      "n": 250,
+      "n10": 43,
+      "n01": 0,
+      "difference": 0.172,
+      "exact_mcnemar_p": 2.2737367544323206e-13,
+      "stratified_prompt_bootstrap95": [
+        0.132,
+        0.216
+      ],
+      "holm4_p": 4.547473508864641e-13
+    }
+  ],
+  "seed": 20261030,
+  "replicates": 10000,
+  "estimand": "Same-item system-prompt difference on sampled safe prompts. Percentile bootstrap resamples prompts within each of the ten fixed types, with same item resampled jointly across the two configurations. It does not quantify future model versions, new prompt types, or decoding variance. Exact tests assume exchangeable independent prompt pairs; related wording can reduce effective n."
+}

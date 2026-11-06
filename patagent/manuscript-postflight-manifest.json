@@ -1,0 +1,30 @@
+{
+  "pipeline_type": "cheminformatics",
+  "stage": "postflight",
+  "decision_context": "exploratory",
+  "purpose": "Secondary label/aggregate analyses and methodological manuscript; no new molecular model promotion or experimental execution.",
+  "reproducibility": {
+    "inputs_versioned": true,
+    "software_versions_recorded": true,
+    "random_seeds_recorded": true,
+    "outputs_and_exclusions_recorded": true
+  },
+  "data": {
+    "representation_policy_documented": true
+  },
+  "results": {
+    "scope": "Literature and released-label audit only",
+    "experimental_validation": false,
+    "reproduced": [
+      "ChemID sufficient-count arithmetic",
+      "XSTest public annotation rates",
+      "RefusalBench scoring convention",
+      "DualChem question-level paired arithmetic and completed-run denominator sensitivity"
+    ],
+    "unresolved": [
+      "unavailable proprietary/raw outcomes",
+      "judge validity not independently established",
+      "physical experiments not independently reproduced"
+    ]
+  }
+}

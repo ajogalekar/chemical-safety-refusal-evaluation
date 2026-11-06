@@ -1,0 +1,119 @@
+[
+  {
+    "file": "reanalysis/data/xstest_v2_completions_gpt4.csv",
+    "source_repository": "https://github.com/paul-rottger/xstest",
+    "revision": "d7bb5bd738c1fcbc36edd83d5e7d1b71a3e2d84d",
+    "original_sha256": "71af323af8ecdec0efae23992317721441d2cfedddedeef3248f842f4e15c9ca",
+    "released_sha256": "b3974425ae571b00da735b8bb87db9e732eeef032a903c5ea6d97d7528daf28e",
+    "rows": 450,
+    "columns": [
+      "id",
+      "type",
+      "annotation_1",
+      "annotation_2",
+      "final_label",
+      "prompt_sha256"
+    ],
+    "modification": "Column projection only, plus SHA-256 of each prompt where available; labels, IDs, types and row order unchanged. Prompts and model-completion prose omitted.",
+    "license": "CC-BY-4.0",
+    "url": "https://raw.githubusercontent.com/paul-rottger/xstest/d7bb5bd738c1fcbc36edd83d5e7d1b71a3e2d84d/model_completions/xstest_v2_completions_gpt4.csv",
+    "pinned_original_byte_match_verified": "2026-11-05"
+  },
+  {
+    "file": "reanalysis/data/xstest_v2_completions_llama2new.csv",
+    "source_repository": "https://github.com/paul-rottger/xstest",
+    "revision": "d7bb5bd738c1fcbc36edd83d5e7d1b71a3e2d84d",
+    "original_sha256": "6365cc55ce0a593c7ab8785853d02784be027d97199d4077912b4313cd010099",
+    "released_sha256": "6c1a8d9bc4a64a5b94d83875be551a29833185b64206869a1609bd3a1c886062",
+    "rows": 450,
+    "columns": [
+      "id",
+      "type",
+      "annotation_1",
+      "annotation_2",
+      "final_label",
+      "prompt_sha256"
+    ],
+    "modification": "Column projection only, plus SHA-256 of each prompt where available; labels, IDs, types and row order unchanged. Prompts and model-completion prose omitted.",
+    "license": "CC-BY-4.0",
+    "url": "https://raw.githubusercontent.com/paul-rottger/xstest/d7bb5bd738c1fcbc36edd83d5e7d1b71a3e2d84d/model_completions/xstest_v2_completions_llama2new.csv",
+    "pinned_original_byte_match_verified": "2026-11-05"
+  },
+  {
+    "file": "reanalysis/data/xstest_v2_completions_llama2orig.csv",
+    "source_repository": "https://github.com/paul-rottger/xstest",
+    "revision": "d7bb5bd738c1fcbc36edd83d5e7d1b71a3e2d84d",
+    "original_sha256": "cbc52550e8ba8197a3e3d97a5af078d27bae4766737cd62df80270126a87ffc6",
+    "released_sha256": "2efed1a867fcd4c1e23e6686698b308046975a498dc870c0a9555565c002bdd0",
+    "rows": 450,
+    "columns": [
+      "id",
+      "type",
+      "annotation_1",
+      "annotation_2",
+      "final_label",
+      "prompt_sha256"
+    ],
+    "modification": "Column projection only, plus SHA-256 of each prompt where available; labels, IDs, types and row order unchanged. Prompts and model-completion prose omitted.",
+    "license": "CC-BY-4.0",
+    "url": "https://raw.githubusercontent.com/paul-rottger/xstest/d7bb5bd738c1fcbc36edd83d5e7d1b71a3e2d84d/model_completions/xstest_v2_completions_llama2orig.csv",
+    "pinned_original_byte_match_verified": "2026-11-05"
+  },
+  {
+    "file": "reanalysis/data/xstest_v2_completions_mistralguard.csv",
+    "source_repository": "https://github.com/paul-rottger/xstest",
+    "revision": "d7bb5bd738c1fcbc36edd83d5e7d1b71a3e2d84d",
+    "original_sha256": "0ac03817b65e019a8f5b4b3eed805086f9f7fafe538ac9ebd156f80210af6903",
+    "released_sha256": "5c75124c94327418975f62fe4ac4803e57ef8353df10884b546ff5e75ab72eeb",
+    "rows": 450,
+    "columns": [
+      "id",
+      "type",
+      "annotation_1",
+      "annotation_2",
+      "final_label",
+      "prompt_sha256"
+    ],
+    "modification": "Column projection only, plus SHA-256 of each prompt where available; labels, IDs, types and row order unchanged. Prompts and model-completion prose omitted.",
+    "license": "CC-BY-4.0",
+    "url": "https://raw.githubusercontent.com/paul-rottger/xstest/d7bb5bd738c1fcbc36edd83d5e7d1b71a3e2d84d/model_completions/xstest_v2_completions_mistralguard.csv",
+    "pinned_original_byte_match_verified": "2026-11-05"
+  },
+  {
+    "file": "reanalysis/data/xstest_v2_completions_mistralinstruct.csv",
+    "source_repository": "https://github.com/paul-rottger/xstest",
+    "revision": "d7bb5bd738c1fcbc36edd83d5e7d1b71a3e2d84d",
+    "original_sha256": "6a146b65a5b96ec8249729bc2db459697175125998d7cbbcc88f7688ecf31dad",
+    "released_sha256": "177f1d1a612bf6e1578fe2d545fda831e0af3ae2456ec0ffbb2190e655b69ea7",
+    "rows": 450,
+    "columns": [
+      "id",
+      "type",
+      "annotation_1",
+      "annotation_2",
+      "final_label",
+      "prompt_sha256"
+    ],
+    "modification": "Column projection only, plus SHA-256 of each prompt where available; labels, IDs, types and row order unchanged. Prompts and model-completion prose omitted.",
+    "license": "CC-BY-4.0",
+    "url": "https://raw.githubusercontent.com/paul-rottger/xstest/d7bb5bd738c1fcbc36edd83d5e7d1b71a3e2d84d/model_completions/xstest_v2_completions_mistralinstruct.csv",
+    "pinned_original_byte_match_verified": "2026-11-05"
+  },
+  {
+    "file": "reanalysis/data/hf-adjudicated.csv",
+    "url": "https://huggingface.co/datasets/appliedscientific/refusalbench/resolve/62d612e9d1aea6ce77cf2ad82cdd03c71aafe898/adjudicated.csv",
+    "revision": "62d612e9d1aea6ce77cf2ad82cdd03c71aafe898",
+    "sha256": "7334a11cb95ec73bbc31c1bdbb5e336843122b9ed05b4e9a7c16772f52911f81",
+    "rows": 15504,
+    "license": "MIT",
+    "modification": "None. Script excludes the three post-frozen models, leaving 13,389 rows.",
+    "original_retrieval": "2026-10-30 to 2026-10-31; pinned byte match verified 2026-11-05"
+  },
+  {
+    "file": "reanalysis/data/chemid_table14_transcription.json",
+    "url": "https://arxiv.org/html/2610.30903v1#A2.T14",
+    "source_locator": "Appendix B.3, Table 14",
+    "modification": "Transcribed published discordant counts; not item-level data",
+    "sha256": "8333d51ad7977b1a8c91581acd1422bd3dce651dfcc65be3eb029e35379669f3"
+  }
+]

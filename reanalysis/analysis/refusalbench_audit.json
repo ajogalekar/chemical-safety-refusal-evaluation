@@ -1,0 +1,74 @@
+{
+  "input_sha256": "7334a11cb95ec73bbc31c1bdbb5e336843122b9ed05b4e9a7c16772f52911f81",
+  "all_rows": 15504,
+  "included_rows": 13389,
+  "excluded_post_frozen_models": [
+    "anthropic/claude-opus-4.8",
+    "minimax/minimax-m3",
+    "nvidia/nemotron-3-ultra-550b-a55b"
+  ],
+  "models": 19,
+  "prompts": 141,
+  "missing_slots": 6,
+  "duplicate_keys": 0,
+  "model_rows": {
+    "us.amazon.nova-pro-v1:0": 704,
+    "anthropic/claude-opus-4.5": 704,
+    "anthropic/claude-opus-4.6": 704,
+    "anthropic/claude-opus-4.7": 705,
+    "anthropic/claude-sonnet-4.6": 705,
+    "us.deepseek.r1-v1:0": 705,
+    "deepseek.v3.2": 704,
+    "google/gemini-3.1-flash-lite-20260507": 705,
+    "google/gemini-3.1-pro-preview-20260219": 705,
+    "zai.glm-5": 705,
+    "openai/gpt-5.4-mini-20260317": 705,
+    "openai/gpt-5.5-20260423": 705,
+    "x-ai/grok-4.20-20260309": 704,
+    "moonshotai/kimi-k2.6-20260420": 705,
+    "us.meta.llama3-3-70b-instruct-v1:0": 705,
+    "minimax/minimax-m2.7-20260318": 705,
+    "mistral.mistral-large-3-675b-instruct": 704,
+    "qwen.qwen3-next-80b-a3b": 705,
+    "nvidia.nemotron-super-3-120b": 705
+  },
+  "mean_compliance_agreement_fraction": 0.8844412876241691,
+  "flagged_count": 257,
+  "three_judge_all_distinct_count": 257,
+  "all_19_tables_match_within_rounding_under_direct_indirect": true,
+  "raw_judge_labels_present": false,
+  "bootstrap_seed": 20261030,
+  "bootstrap_replicates": 10000,
+  "bootstraps": [
+    {
+      "convention": "stated_methods_direct_plus_nonresponsive",
+      "n_independent_prompt_blocks": 47,
+      "delta": 0.451063829787234,
+      "prompt_cluster_percentile95": [
+        0.3148936170212766,
+        0.5872340425531914
+      ],
+      "estimand": "Mean within-prompt difference in benign refusal rate, 4.7 minus 4.6. Prompt bootstrap generalizes under exchangeability of this curated prompt sample, conditional on labels and snapshots; no provider causal effect. Available generations (up to five; 93 groups have five and one has four) are averaged within each prompt/model group, not treated as independent tasks."
+    },
+    {
+      "convention": "table_matching_direct_plus_indirect",
+      "n_independent_prompt_blocks": 47,
+      "delta": 0.4340425531914894,
+      "prompt_cluster_percentile95": [
+        0.2936170212765957,
+        0.5787234042553191
+      ],
+      "estimand": "Mean within-prompt difference in benign refusal rate, 4.7 minus 4.6. Prompt bootstrap generalizes under exchangeability of this curated prompt sample, conditional on labels and snapshots; no provider causal effect. Available generations (up to five; 93 groups have five and one has four) are averaged within each prompt/model group, not treated as independent tasks."
+    },
+    {
+      "convention": "direct_only",
+      "n_independent_prompt_blocks": 47,
+      "delta": 0.43829787234042555,
+      "prompt_cluster_percentile95": [
+        0.2978723404255319,
+        0.5829787234042553
+      ],
+      "estimand": "Mean within-prompt difference in benign refusal rate, 4.7 minus 4.6. Prompt bootstrap generalizes under exchangeability of this curated prompt sample, conditional on labels and snapshots; no provider causal effect. Available generations (up to five; 93 groups have five and one has four) are averaged within each prompt/model group, not treated as independent tasks."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "geometry": [
+    {
+      "cosine": 0.699,
+      "common_norm": 0.9216832427683601,
+      "residual_norm": 0.3879432948254165
+    },
+    {
+      "cosine": 0.794,
+      "common_norm": 0.9471008394041259,
+      "residual_norm": 0.3209361307176242
+    }
+  ],
+  "planning_precision_only": [
+    {
+      "independent_pairs": 95,
+      "approx95_halfwidth_at_p05": 0.1005440309502301
+    },
+    {
+      "independent_pairs": 385,
+      "approx95_halfwidth_at_p05": 0.04994450700198544
+    },
+    {
+      "independent_pairs": 60,
+      "approx95_halfwidth_at_p05": 0.12651513118816252
+    },
+    {
+      "independent_pairs": 120,
+      "approx95_halfwidth_at_p05": 0.08945970718585539
+    }
+  ],
+  "python": "3.12.14",
+  "assumptions": "ChemID normal intervals and tests assume independent exchangeable molecules, conditional on chosen models and scorer. No analog/scaffold correction possible from these counts. No n11/n00 or item identities fabricated."
+}

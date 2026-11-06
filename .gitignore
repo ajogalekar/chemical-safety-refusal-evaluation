@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+patagent/corpus/
+validation/run-logs/
+output/
+tmp/

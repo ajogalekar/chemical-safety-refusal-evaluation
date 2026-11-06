@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "primary_corpus": "Practical Cheminformatics",
+  "sources": [
+    {
+      "name": "Practical Cheminformatics Blogger archive",
+      "type": "public Blogger JSON feed",
+      "url": "https://practicalcheminformatics.blogspot.com/feeds/posts/default",
+      "pagination": "25 posts per request using start-index",
+      "records_verified_2026-08-06": 74,
+      "authentication": "none",
+      "content_policy": "Local retrieval cache only; attribute each post and do not reproduce long passages."
+    },
+    {
+      "name": "Practical Cheminformatics current GitHub Pages site",
+      "type": "public GitHub repository",
+      "url": "https://github.com/PatWalters/patwalters.github.io",
+      "path": "_posts/*.md",
+      "records_verified_2026-08-06": 16,
+      "authentication": "none for normal public rate limits; optional GITHUB_TOKEN",
+      "license": "Repository declares MIT; preserve attribution and linked-source rights."
+    }
+  ],
+  "verified_total_posts_2026-08-06": 90,
+  "coverage_rule": "A successful refresh must retrieve every record reported by the Blogger feed and every _posts Markdown blob reported by the GitHub tree API.",
+  "guest_rule": "Guest posts are included as blog context but explicitly marked and never represented as Pat Walters's own writing.",
+  "publication_metadata": [
+    {
+      "name": "Google Scholar profile",
+      "url": "https://scholar.google.com/citations?hl=en&user=fBOQPb8AAAAJ",
+      "note": "Discovery pointer only; automated scraping is not required."
+    },
+    {
+      "name": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Walters%20WP%5BAuthor%5D",
+      "note": "Use bibliographic metadata and abstracts subject to NCBI policies; do not ingest publisher-controlled full text without permission."
+    }
+  ]
+}

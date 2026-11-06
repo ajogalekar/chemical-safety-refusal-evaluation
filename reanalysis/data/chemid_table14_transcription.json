@@ -1,0 +1,63 @@
+{
+  "source": "https://arxiv.org/html/2610.30903v1#A2.T14",
+  "n": 896,
+  "rows": [
+    [
+      "ChemDFM-v2.0-14B",
+      333,
+      4,
+      198,
+      37
+    ],
+    [
+      "ChemDFM-v1.5-8B",
+      183,
+      14,
+      212,
+      88
+    ],
+    [
+      "Qwen2.5-14B-Instruct",
+      331,
+      3,
+      322,
+      68
+    ],
+    [
+      "Qwen2.5-7B-Instruct",
+      299,
+      4,
+      292,
+      93
+    ],
+    [
+      "Qwen2-72B-Instruct",
+      384,
+      2,
+      215,
+      96
+    ],
+    [
+      "Meta-Llama-3-8B-Instruct",
+      338,
+      0,
+      248,
+      51
+    ],
+    [
+      "Llama-3.1-8B-Instruct",
+      343,
+      4,
+      278,
+      55
+    ]
+  ],
+  "fields": [
+    "model",
+    "indication_n10",
+    "indication_n01",
+    "benzene_n10",
+    "benzene_n01"
+  ],
+  "status": "manually transcribed published sufficient counts; not raw data"
+}

@@ -1,0 +1,111 @@
+{
+  "status": "passed",
+  "chemid_comparisons": 14,
+  "chemid_max_holm_p": 1.2522775415289573e-11,
+  "xstest": [
+    {
+      "before": "llama2orig",
+      "after": "llama2new",
+      "outcome": "full_refusal",
+      "pairs": 250,
+      "prompt_fields_checked": [
+        "prompt_sha256"
+      ],
+      "discordance": [
+        3,
+        63
+      ]
+    },
+    {
+      "before": "llama2orig",
+      "after": "llama2new",
+      "outcome": "any_refusal",
+      "pairs": 250,
+      "prompt_fields_checked": [
+        "prompt_sha256"
+      ],
+      "discordance": [
+        5,
+        80
+      ]
+    },
+    {
+      "before": "mistralinstruct",
+      "after": "mistralguard",
+      "outcome": "full_refusal",
+      "pairs": 250,
+      "prompt_fields_checked": [
+        "prompt_sha256"
+      ],
+      "discordance": [
+        22,
+        0
+      ]
+    },
+    {
+      "before": "mistralinstruct",
+      "after": "mistralguard",
+      "outcome": "any_refusal",
+      "pairs": 250,
+      "prompt_fields_checked": [
+        "prompt_sha256"
+      ],
+      "discordance": [
+        43,
+        0
+      ]
+    }
+  ],
+  "refusalbench": [
+    {
+      "convention": "stated_methods_direct_plus_nonresponsive",
+      "prompts": 47,
+      "trials_per_prompt_model": [
+        4,
+        5
+      ],
+      "difference_pp": 45.1063829787234,
+      "one_missing_trial_sensitivity_pp": [
+        44.680851063829785,
+        45.1063829787234
+      ],
+      "reporting_correction": "One prompt/model group has four available repeats; 93 have five. Say up to five or available repeats."
+    },
+    {
+      "convention": "table_matching_direct_plus_indirect",
+      "prompts": 47,
+      "trials_per_prompt_model": [
+        4,
+        5
+      ],
+      "difference_pp": 43.40425531914894,
+      "one_missing_trial_sensitivity_pp": [
+        42.97872340425532,
+        43.40425531914894
+      ],
+      "reporting_correction": "One prompt/model group has four available repeats; 93 have five. Say up to five or available repeats."
+    },
+    {
+      "convention": "direct_only",
+      "prompts": 47,
+      "trials_per_prompt_model": [
+        4,
+        5
+      ],
+      "difference_pp": 43.829787234042556,
+      "one_missing_trial_sensitivity_pp": [
+        43.40425531914894,
+        43.829787234042556
+      ],
+      "reporting_correction": "One prompt/model group has four available repeats; 93 have five. Say up to five or available repeats."
+    }
+  ],
+  "dualchem_arithmetic": "matched",
+  "statistical_boundaries": [
+    "Tests and intervals depend on the stated independent/exchangeable item assumptions.",
+    "No original response labels independently validated.",
+    "ChemID family dependence and DualChem participant dependence remain unresolvable from examined inputs.",
+    "Bootstrap reruns reproduce the saved seed and results; they do not establish that curated prompts form a probability sample.",
+    "No inference of significance for the DualChem +2.3-point tool comparison."
+  ]
+}

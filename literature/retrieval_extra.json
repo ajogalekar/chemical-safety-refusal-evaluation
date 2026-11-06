@@ -1,0 +1,65 @@
+[
+  {
+    "key": "strongreject",
+    "url": "https://arxiv.org/pdf/2402.10260v2",
+    "retrieved_utc": "2026-10-31T23:53:31.585299+00:00",
+    "resolved_url": "https://arxiv.org/pdf/2402.10260v2",
+    "status": "retrieved",
+    "bytes": 600542,
+    "sha256": "10caab98ed5a75b019ef3c8a6697527f83edda067516996d2cb612f02ff746bc"
+  },
+  {
+    "key": "chemref",
+    "url": "https://arxiv.org/pdf/2511.10027",
+    "retrieved_utc": "2026-10-31T23:53:31.585621+00:00",
+    "resolved_url": "https://arxiv.org/pdf/2511.10027",
+    "status": "retrieved",
+    "bytes": 987181,
+    "sha256": "4cb202edab38264a5662adcb0ba5a8c246972856837cd3828928cfcc35e5bba3"
+  },
+  {
+    "key": "labshield",
+    "url": "https://arxiv.org/pdf/2603.11987v1",
+    "retrieved_utc": "2026-10-31T23:53:31.585732+00:00",
+    "resolved_url": "https://arxiv.org/pdf/2603.11987v1",
+    "status": "retrieved",
+    "bytes": 2920220,
+    "sha256": "4f8356e6a3f581d4182f467477f680d50421c35f0bfd79dec664cf87d0300773"
+  },
+  {
+    "key": "harmbench",
+    "url": "https://arxiv.org/pdf/2402.04249",
+    "retrieved_utc": "2026-10-31T23:53:31.585870+00:00",
+    "resolved_url": "https://arxiv.org/pdf/2402.04249",
+    "status": "retrieved",
+    "bytes": 3233876,
+    "sha256": "e6cbcbedbef6aebea3b6fc6c8fd7933546b26cf0a1e65bcf128eea235007c732"
+  },
+  {
+    "key": "sorrybench",
+    "url": "https://arxiv.org/pdf/2406.14598",
+    "retrieved_utc": "2026-10-31T23:53:31.585961+00:00",
+    "resolved_url": "https://arxiv.org/pdf/2406.14598",
+    "status": "retrieved",
+    "bytes": 4133632,
+    "sha256": "643f5f6a2eddf475777f51503b18c8ecc96618f7242f2bbf8bb52c08e35a6e88"
+  },
+  {
+    "key": "orbench",
+    "url": "https://arxiv.org/pdf/2405.20947",
+    "retrieved_utc": "2026-10-31T23:53:31.586036+00:00",
+    "resolved_url": "https://arxiv.org/pdf/2405.20947",
+    "status": "retrieved",
+    "bytes": 1075219,
+    "sha256": "1a4c7b60301abcad795fc63ac88bc04534f46cfd707f8ad2824993a87d402792"
+  },
+  {
+    "key": "arditi",
+    "url": "https://papers.neurips.cc/paper_files/paper/2024/file/f545448535dfde4f9786555403ab7c49-Paper-Conference.pdf",
+    "retrieved_utc": "2026-10-31T23:53:31.954782+00:00",
+    "resolved_url": "https://papers.neurips.cc/paper_files/paper/2024/file/f545448535dfde4f9786555403ab7c49-Paper-Conference.pdf",
+    "status": "retrieved",
+    "bytes": 877083,
+    "sha256": "00b84fce7160c8cec3ad5c02dd434292ec386e4b97a5d0e53c03fa40a0854cc6"
+  }
+]

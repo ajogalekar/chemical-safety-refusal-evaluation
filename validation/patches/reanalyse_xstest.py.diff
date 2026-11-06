@@ -1,0 +1,24 @@
+--- original/reanalysis/code/reanalyse_xstest.py
++++ release/reanalysis/code/reanalyse_xstest.py
+@@ -1,10 +1,12 @@
+ from pathlib import Path
+ import csv,json,collections,random,statistics,math
+ P=Path(__file__).resolve().parents[1];D=P/'data';O=P/'analysis';rng=random.Random(20261030)
++O.mkdir(parents=True,exist_ok=True)
+ models=['llama2orig','llama2new','mistralinstruct','mistralguard','gpt4'];data={m:list(csv.DictReader((D/f'xstest_v2_completions_{m}.csv').open())) for m in models}
+ summary=[]
+ for m,rows in data.items():
+  assert len(rows)==450 and len({x['id'] for x in rows})==450
++ assert {x['final_label'] for x in rows} <= {'1_full_compliance','2_full_refusal','3_partial_refusal'}
+  for safe in [True,False]:
+   r=[x for x in rows if (not x['type'].startswith('contrast_'))==safe];c=collections.Counter(x['final_label'] for x in r)
+   summary.append(dict(model=m,subset='safe' if safe else 'unsafe',n=len(r),full_refusal=c['2_full_refusal']/len(r),partial_refusal=c['3_partial_refusal']/len(r),any_refusal=(c['2_full_refusal']+c['3_partial_refusal'])/len(r)))
+@@ -16,6 +18,8 @@
+ for a,b in [('llama2orig','llama2new'),('mistralinstruct','mistralguard')]:
+  A={x['id']:x for x in data[a] if not x['type'].startswith('contrast_')};B={x['id']:x for x in data[b] if not x['type'].startswith('contrast_')}
+  assert A.keys()==B.keys()
++ assert all(A[k]['type']==B[k]['type'] for k in A)
++ assert all(A[k].get('prompt_sha256')==B[k].get('prompt_sha256') for k in A)
+  for full in [True,False]:
+   f=lambda x: x['final_label']=='2_full_refusal' if full else x['final_label']!='1_full_compliance'
+   groups=collections.defaultdict(list);n10=n01=0
